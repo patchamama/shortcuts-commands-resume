@@ -147,6 +147,6 @@ git config --global user.email "your@email.com"
 - [x] GitHub commands frequently used
 - [x] VSCode plugins for developers
 - [ ] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
-- [ ] Online IDEs to coding (gitpod, codeanywhere, codesandbox, kodi.link)
+- [ ] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)

@@ -123,6 +123,21 @@ git config --global user.email "your@email.com"
 - `git log --format="%h %an %s" --since="2 weeks ago"`: Customized log format and time range.
 </details>
 
+## Software for developers
+
+- [Google Chrome](https://www.google.com/chrome/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Postman](https://www.postman.com/downloads/)
+- [Node](https://nodejs.org/es/)
+- [Git](https://git-scm.com/)
+
+## Additional terminal programs
+
+- [Homebrew](https://brew.sh/) Install: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- [Midnight Commander - mc](https://midnight-commander.org/) Install: `brew install mc` Ex.: `mc` Open editor: `mcedit`
+- [Node Version Manager - nvm](https://github.com/nvm-sh/nvm) Install: `brew install nvm` Ex.: `nvm install 16` `nvm use 16`
+- [Copilot, for your terminal - plz](https://github.com/m1guelpf/plz-cli) Install: `brew install plz-cli` Ex: `plz how to install react with vite tools`
+
 ## VSCode extensions
 
 - [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
@@ -146,7 +161,7 @@ git config --global user.email "your@email.com"
 - [x] Common commands used in the terminal
 - [x] GitHub commands frequently used
 - [x] VSCode plugins for developers
-- [ ] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
+- [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
 - [ ] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)

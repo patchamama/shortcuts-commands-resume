@@ -64,6 +64,7 @@ git config --global user.email "your@email.com"
 - `git push`: **Push local commits to a remote repository.**
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
+- `git branch -a`: list the branches
 
 <details>
 <summary>Others</summary>
@@ -166,3 +167,7 @@ git config --global user.email "your@email.com"
 - [ ] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
+- [ ] Installation of react with vite, create-react-app, pnpm and main libraries with some tips
+- [ ] Installation of nodeJS with main libraries, esLint
+- [ ] Main free servers to deploy app in cloud
+- [ ] Database servers and installations

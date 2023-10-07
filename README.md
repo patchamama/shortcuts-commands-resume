@@ -43,6 +43,15 @@
 
 ## GitHub commands frequently used
 
+### Configuration
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+### Commands
+
 - `git init`: Initialize a new Git repository in the current directory.
 - `git clone <repository>`: Create a local copy of a remote repository.
 - `git remote add <name> <URL>`: Add a new remote repository.
@@ -114,11 +123,29 @@
 - `git log --format="%h %an %s" --since="2 weeks ago"`: Customized log format and time range.
 </details>
 
+## Extensions to VSCode
+
+- [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
+- [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
+
+### Themas:
+
+- [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
+- [Iconos](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+### React
+
+- [ES7 React/Redux](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+- [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
+- [Wallpapers Developer](https://drive.google.com/drive/folders/1ItU8rbSGJjnh2USOBGwaCo9nYKifPJ6m?usp=sharing)
+
 ## To do (sections)
 
 - [x] Common commands used in the terminal
-- [ ] GitHub commands frequently used
-- [ ] VSCode plugins for developers
+- [x] GitHub commands frequently used
+- [x] VSCode plugins for developers
 - [ ] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
 - [ ] Online IDEs to coding (gitpod, codeanywhere, codesandbox, kodi.link)
 - [ ] Markdown and Readme references

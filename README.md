@@ -123,12 +123,12 @@ git config --global user.email "your@email.com"
 - `git log --format="%h %an %s" --since="2 weeks ago"`: Customized log format and time range.
 </details>
 
-## Extensions to VSCode
+## VSCode extensions
 
 - [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
 - [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
 
-### Themas:
+### Themes:
 
 - [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 - [Iconos](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)

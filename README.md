@@ -63,6 +63,7 @@ git config --global user.email "your@email.com"
 - `git switch -c  <branch>`: Create an switch to a different branch.
 - `git push`: **Push local commits to a remote repository.**
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
+- `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
 
 <details>
 <summary>Others</summary>

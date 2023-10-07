@@ -13,6 +13,9 @@
 - `touch`: Create an empty file.
 - `cp`: Copy files or directories from one location to another.
 - `mv`: Move or rename files or directories.
+
+<details>
+<summary>Others</summary>
 - `grep`: Search for text patterns within files.
 - `echo`: Display a message or variable content in the terminal.
 - `ps`: Display a list of currently running processes.
@@ -36,3 +39,87 @@
 - `shutdown`: Shut down or restart the system.
 - `reboot`: Reboot the system.
 - `history`: View and manage command history.
+</details>
+
+## GitHub commands frequently used
+
+- `git init`: Initialize a new Git repository in the current directory.
+- `git clone <repository>`: Create a local copy of a remote repository.
+- `git remote add <name> <URL>`: Add a new remote repository.
+- `git add <file>`: Stage changes for commit. Example: `git add .` **(to add all the files).**
+- `git commit -m "Message"`: **Commit staged changes with a descriptive message.**
+- `git status`: View the status of your working directory and staged changes.
+- `git log`: Display a history of commits in the repository.
+- `git switch  <branch>`: Switch to a different branch.
+- `git switch -c  <branch>`: Create an switch to a different branch.
+- `git push`: **Push local commits to a remote repository.**
+- `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
+
+<details>
+<summary>Others</summary>
+- `git branch`: List all local branches and highlight the current branch.
+- `git checkout <branch>`: Switch to a different branch.
+- `git merge <branch>`: Merge changes from one branch into the current branch.
+- `git pull`: Fetch and merge changes from a remote repository.
+- `git push`: Push local commits to a remote repository.
+- `git remote -v`: View information about remote repositories.
+- `git fetch <remote>`: Download changes from a remote repository.
+- `git reset <file>`: Unstage changes for a specific file.
+- `git reset --hard <commit>`: Reset the current branch to a specific commit.
+- `git stash`: Temporarily save changes that are not ready to be committed.
+- `git tag <tagname>`: Create a lightweight tag for a specific commit.
+- `git diff`: Show differences between the working directory and the last commit.
+- `git blame <file>`: Display who made each change to a file and in which commit.
+- `git remote remove <name>`: Remove a remote repository.
+- `git push --tags`: Push tags to a remote repository.
+- `git checkout -b <new-branch>`: Create and switch to a new branch.
+- `git branch -d <branch-name>`: Delete a local branch.
+- `git push origin --delete <branch-name>`: Delete a remote branch.
+- `git rebase <branch>`: Move or combine commits from one branch onto another.
+- `git fetch --prune`: Remove references to remote branches that no longer exist.
+- `git log --author=<author>`: View commits by a specific author.
+- `git log --grep=<pattern>`: Search commit messages for a specific pattern.
+- `git log <file>`: View the commit history for a specific file.
+- `git remote set-url origin <new-URL>`: Change the URL of a remote repository.
+- `git cherry-pick <commit>`: Apply a specific commit to the current branch.
+- `git reflog`: Display a log of all Git references, including branch changes.
+- `git clean -df`: Remove untracked files and directories.
+- `git bisect`: Find the commit that introduced a bug using binary search.
+- `git submodule`: Manage Git submodules within a repository.
+- `git log --oneline --graph --all`: Display a compact graph of the commit history.
+- `git commit --amend`: Modify the last commit with new changes.
+- `git remote prune origin`: Prune stale remote-tracking branches.
+- `git pull --rebase`: Pull and rebase instead of merging.
+- `git log --since=<date>`: Show commits since a specific date.
+- `git stash pop`: Apply the last stashed changes and remove them from the stash.
+- `git revert <commit>`: Create a new commit that undoes changes from a specific commit.
+- `git log --oneline --abbrev-commit`: Display shortened commit hashes in the log.
+- `git log --stat`: Show statistics about changes in each commit.
+- `git log --graph --decorate`: Display a commit graph with branch and tag labels.
+- `git remote show <remote>`: Show information about a remote repository.
+- `git log -p <file>`: Display the changes made to a specific file in each commit.
+- `git bisect start`: Start the bisection process for finding a bug.
+- `git bisect good <commit>`: Mark a commit as good during bisection.
+- `git bisect bad <commit>`: Mark a commit as bad during bisection.
+- `git bisect reset`: Reset the bisection process.
+- `git bisect visualize`: Visualize the bisection process.
+- `git clean -n`: Dry run of `git clean` to see what would be removed.
+- `git clean -i`: Interactively choose which untracked files to remove.
+- `git blame -L <start>,<end> <file>`: Annotate only specific lines of a file.
+- `git push -u <remote> <branch>`: Push a local branch to a remote and set up tracking.
+- `git cherry-pick --edit <commit>`: Cherry-pick a commit and edit the message.
+- `git log --no-merges`: Display a log without merge commits.
+- `git log --all --graph --decorate --oneline`: A compact and visual commit history.
+- `git grep <pattern>`: Search for a pattern in the contents of files.
+- `git log --format="%h %an %s" --since="2 weeks ago"`: Customized log format and time range.
+</details>
+
+## To do (sections)
+
+- [x] Common commands used in the terminal
+- [ ] GitHub commands frequently used
+- [ ] VSCode plugins for developers
+- [ ] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
+- [ ] Online IDEs to coding (gitpod, codeanywhere, codesandbox, kodi.link)
+- [ ] Markdown and Readme references
+- [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)

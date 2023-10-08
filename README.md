@@ -61,12 +61,28 @@ git config --global color.ui true
 - `git commit -am "commit message"`: **Commit all your tracked files to versioned history**
 - `git status`: View the status of your working directory and staged changes.
 - `git log`: Display a history of commits in the repository.
-- `git switch  <branch>`: Switch to a different branch.
-- `git switch -c  <branch>`: Create an switch to a different branch.
+- `git switch  <branch>` or `git checkout <branch>`: Switch to a different branch.
+- `git switch -c  <branch>` or `git checkout -b <branch>`: Create an switch to a different branch.
 - `git push`: **Push local commits to a remote repository.**
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
 - `git branch -a`: list the branches
+
+- Make a Pull Request for a provisional branch <lastupdate>
+
+```
+git checkout -b lastupdate
+git push origin lastupdate
+
+# Open a Pull Request in https://github.com/<project> ->
+
+# Merge the lastupdate branch with main
+git checkout main
+git merge lastupdate
+
+#Remove the lastupdate branch
+git branch -d lastupdate
+```
 
 _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F8341g68g1v7y.png)_
 
@@ -181,7 +197,7 @@ _\* for backend development_
 
 ## Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
 
-### Integrate with github to coding and sync the repository
+### IDE Integrated with github to coding and sync the repository
 
 - [GitPod](https://gitpod.io/) [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/gitpod/dodmmooeoklaejobgleioelladacbeki) [Template to fork](https://github.com/Code-Institute-Org/gitpod-full-template)
 - [CodeAnyWhere](https://codeanywhere.com/signin) [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/codeanywhere/jdofbmaiblhheoneemdjccjeeihbiabl) [Template to fork](https://github.com/Code-Institute-Org/ci-full-template)
@@ -215,7 +231,7 @@ _\* for backend development_
 - [x] GitHub commands frequently used
 - [x] VSCode plugins for developers
 - [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
-- [ ] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
+- [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
 - [ ] Installation of react with vite, create-react-app, pnpm and main libraries with some tips

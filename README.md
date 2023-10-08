@@ -5,14 +5,15 @@
 - `ls`: List files and directories in the current directory.
 - `cat`: Concatenate and display the contents of a file.
 - `pwd`: Print the current working directory.
-- `history`: View a list of previously executed commands.
+- `history`: View a list of previously executed commands. Ex.: `history .` , `history -5`
 - `rm`: Remove files or directories. Be cautious as this command is irreversible.
 - `mkdir`: Create a new directory.
 - `find`: Search for files and directories in a specified location.
 - `cd`: Change the current directory.
-- `touch`: Create an empty file.
+- `touch`: Create an empty file. Ex.: `touch file-to-create.text`
 - `cp`: Copy files or directories from one location to another.
 - `mv`: Move or rename files or directories.
+- `grep`: Search for text patterns within files. Ex.: `history . | grep <command-to-search>`
 
 <details>
 <summary>Others</summary>
@@ -68,7 +69,7 @@ git config --global color.ui true
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
 - `git branch -a`: list the branches
 
-### Make a Pull Request for a provisional branch <lastupdate>
+### Make a `Pull Request` for a provisional branch <lastupdate>
 
 ```
 git checkout -b lastupdate
@@ -201,7 +202,7 @@ _\* for backend development_
 
 - [GitPod](https://gitpod.io/) | [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/gitpod/dodmmooeoklaejobgleioelladacbeki) | [Template to fork](https://github.com/Code-Institute-Org/gitpod-full-template)
 - [CodeAnyWhere](https://codeanywhere.com/signin) | [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/codeanywhere/jdofbmaiblhheoneemdjccjeeihbiabl) | [Template to fork](https://github.com/Code-Institute-Org/ci-full-template)
-- [Open GitHub in VS Code](https://chrome.google.com/webstore/detail/open-github-in-vs-code/pnhnmmcigmleaooedjnodnioapklfngc)
+- [Chrome to open GitHub in VS Code](https://chrome.google.com/webstore/detail/open-github-in-vs-code/pnhnmmcigmleaooedjnodnioapklfngc)
 
 ### Online live editor to coding and share
 
@@ -209,13 +210,13 @@ _\* for backend development_
 - [codi.link](https://codi.link) | [codi.link in github](https://github.com/midudev/codi.link): A simple platform for sharing code snippets in JS, HTML, CSS and is possible to install libraries with npm.
 - [replit.com](https://replit.com/): An online IDE for coding and collaboration with over 50 languages including Python, JavaScript, Java, C++, and more.
 - [Python Tutor](https://pythontutor.com/): An interactive Python code visualizer, that support JavaScript ES6, python 2.7, 3.6 and 3.11, c (c17 + GNU extensions, gcc 9.3), c++, java 8.
-- [Google Colabs](https://colab.research.google.com/)
-- [Python Online Compiler - Programiz](https://www.programiz.com/python-programming/online-compiler/?ref=735b4d58)
+- [Google Colabs](https://colab.research.google.com/): A cloud-based Jupyter Notebook for Python.
+- [Python Online Compiler - Programiz](https://www.programiz.com/python-programming/online-compiler/?ref=735b4d58): An online Python code compiler by Programiz.
 - [Code Pen](https://codepen.io/pen/). HTML, CSS and JavaScript online editor.
 - [Amazon Cloud IDE - AWS Cloud9](https://aws.amazon.com/cloud9/): Cloud9 IDE is an Online IDE (integrated development environment), published as open source from version 2.0, until version 3.0. It supports multiple programming languages, including C, C++, PHP, Ruby, Perl, Python, JavaScript with Node.js, and Go.
 - [WebStorm](https://www.jetbrains.com/webstorm/): WebStorm is a powerful IDE for JavaScript development which helps you write high-quality code quickly, regardless of how complex your projects might be. With out-of-the-box support for all popular technologies.
 
-## Webs to test logic of programming
+## Webs to test _logic of programming_
 
 - [adventjs․dev](https://adventjs․dev)
 - [leetcode․com](https://leetcode․com)
@@ -234,8 +235,8 @@ _\* for backend development_
 - [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
-- [ ] Installation of react with vite, create-react-app, pnpm and main libraries with some tips
-- [ ] Installation of nodeJS with main libraries, esLint
+- [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
+- [ ] Basic installation of nodeJS with main libraries, esLint
 - [ ] Main free servers to deploy app in cloud
 - [ ] Database servers and installations
 - [ ] Free online courses

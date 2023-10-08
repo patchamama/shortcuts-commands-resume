@@ -69,7 +69,7 @@ git config --global color.ui true
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
 - `git branch -a`: list the branches
 
-### Make a `Pull Request` for a provisional branch <lastupdate>
+### Make a _Pull Request_ for a provisional branch <lastupdate>
 
 ```
 git checkout -b lastupdate
@@ -212,9 +212,20 @@ _\* for backend development_
 - [Python Tutor](https://pythontutor.com/): An interactive Python code visualizer, that support JavaScript ES6, python 2.7, 3.6 and 3.11, c (c17 + GNU extensions, gcc 9.3), c++, java 8.
 - [Google Colabs](https://colab.research.google.com/): A cloud-based Jupyter Notebook for Python.
 - [Python Online Compiler - Programiz](https://www.programiz.com/python-programming/online-compiler/?ref=735b4d58): An online Python code compiler by Programiz.
-- [Code Pen](https://codepen.io/pen/). HTML, CSS and JavaScript online editor.
+- [Code Pen](https://codepen.io/pen/): HTML, CSS and JavaScript online editor.
 - [Amazon Cloud IDE - AWS Cloud9](https://aws.amazon.com/cloud9/): Cloud9 IDE is an Online IDE (integrated development environment), published as open source from version 2.0, until version 3.0. It supports multiple programming languages, including C, C++, PHP, Ruby, Perl, Python, JavaScript with Node.js, and Go.
 - [WebStorm](https://www.jetbrains.com/webstorm/): WebStorm is a powerful IDE for JavaScript development which helps you write high-quality code quickly, regardless of how complex your projects might be. With out-of-the-box support for all popular technologies.
+
+## Free online courses
+
+- [Full Stack open with certification](https://fullstackopen.com/en/) | [Videos in spanish](https://patchamama.github.io/fast-simple-course-generator/): Deep Dive Into Modern Web Development. Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js. The course is available in english, spanish, francais and portuguese.
+- [CS50's Web Programming with Python and JavaScript - Computer Science, Harvard University](https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0): This course picks up where CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.
+- [freeCodeCamp](https://www.freecodecamp.org/): Learn to code — for free. Build projects. Earn certifications.
+- [Aprende JavaScript](https://www.aprendejavascript.dev/): Curso para aprender paso a paso JavaScript.
+  100% gratis y práctico. Desde cero.
+- [El Tutorial de JavaScript Moderno](https://es.javascript.info/): Aquí aprenderemos JavaScript, empezando desde cero y llegaremos hasta conceptos avanzados como POO.
+- [Learn Python with certification](https://programiz.pro/learn/master-python?utm_source=compiler-nav&utm_campaign=programiz&utm_medium=referral): Learn to code in Python—a beginner-friendly programming language used in data analysis, web development, task automation, and many other fields.
+- [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
 
 ## Webs to test _logic of programming_
 
@@ -233,10 +244,10 @@ _\* for backend development_
 - [x] VSCode plugins for developers
 - [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
 - [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
+- [ ] Free online courses
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
 - [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
 - [ ] Basic installation of nodeJS with main libraries, esLint
 - [ ] Main free servers to deploy app in cloud
 - [ ] Database servers and installations
-- [ ] Free online courses

@@ -5,14 +5,15 @@
 - `ls`: List files and directories in the current directory.
 - `cat`: Concatenate and display the contents of a file.
 - `pwd`: Print the current working directory.
-- `history`: View a list of previously executed commands.
+- `history`: View a list of previously executed commands. Ex.: `history .` , `history -5`
 - `rm`: Remove files or directories. Be cautious as this command is irreversible.
 - `mkdir`: Create a new directory.
 - `find`: Search for files and directories in a specified location.
 - `cd`: Change the current directory.
-- `touch`: Create an empty file.
+- `touch`: Create an empty file. Ex.: `touch file-to-create.text`
 - `cp`: Copy files or directories from one location to another.
 - `mv`: Move or rename files or directories.
+- `grep`: Search for text patterns within files. Ex.: `history . | grep <command-to-search>`
 
 <details>
 <summary>Others</summary>
@@ -61,12 +62,30 @@ git config --global color.ui true
 - `git commit -am "commit message"`: **Commit all your tracked files to versioned history**
 - `git status`: View the status of your working directory and staged changes.
 - `git log`: Display a history of commits in the repository.
-- `git switch  <branch>`: Switch to a different branch.
-- `git switch -c  <branch>`: Create an switch to a different branch.
+- `git switch  <branch>` or `git checkout <branch>`: Switch to a different branch.
+- `git switch -c  <branch>` or `git checkout -b <branch>`: Create an switch to a different branch.
 - `git push`: **Push local commits to a remote repository.**
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
 - `git branch -a`: list the branches
+
+### Make a _Pull Request_ for a provisional branch <lastupdate>
+
+```
+git checkout -b lastupdate
+git push origin lastupdate
+
+# Open a Pull Request in https://github.com/<project>/lastupdate -> Click: This branch is xxx commits ahead, xxxx commit behind origin-repo:main.
+
+# Merge the lastupdate branch with main
+git checkout main
+git merge lastupdate
+
+#Remove the lastupdate branch
+git branch -d lastupdate
+# git push origin --delete lastupdate
+
+```
 
 _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F8341g68g1v7y.png)_
 
@@ -140,9 +159,9 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 - [Git](https://git-scm.com/)
 - [Mongo Compass](https://www.mongodb.com/try/download/compass)\*
 - [Table Plus](https://tableplus.com/)\*
-- [Node](https://nodejs.org/es/)
+- [Node](https://nodejs.org/es/)\*
 - [Docker Desktop](https://www.docker.com/get-started)
-  Download docker images: `docker pull mongo:6.0.6`
+  Download docker images: `docker pull mongo:6.0.6`\*
 
 _\* for backend development_
 
@@ -151,7 +170,7 @@ _\* for backend development_
 - [Homebrew](https://brew.sh/) Install: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - [Midnight Commander - mc](https://midnight-commander.org/) Install: `brew install mc` Ex.: `mc` Open editor: `mcedit`
 - [Node Version Manager - nvm](https://github.com/nvm-sh/nvm) Install: `brew install nvm` Ex.: `nvm install 16` `nvm use 16`
-- [Copilot, for your terminal - plz](https://github.com/m1guelpf/plz-cli) Install: `brew install plz-cli` Ex: `plz how to install react with vite tools`
+- [Copilot, for your terminal - plz](https://github.com/m1guelpf/plz-cli) Install: `brew install plz-cli` Ex: `plz how to install react with vite tools` Conf.: `export OPENAI_API_KEY='sk-...'`
 
 ## VSCode extensions
 
@@ -179,7 +198,38 @@ _\* for backend development_
 - [Dockers VSCode](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 - [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal&ssr=false#overview)
 
-## Webs to test logic of programming
+## Online IDEs to coding and tools to integrate with github
+
+### IDE Integrated with github to coding and sync the repository
+
+- [GitPod](https://gitpod.io/) | [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/gitpod/dodmmooeoklaejobgleioelladacbeki) | [Template to fork](https://github.com/Code-Institute-Org/gitpod-full-template)
+- [CodeAnyWhere](https://codeanywhere.com/signin) | [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/codeanywhere/jdofbmaiblhheoneemdjccjeeihbiabl) | [Template to fork](https://github.com/Code-Institute-Org/ci-full-template)
+- [Chrome to open GitHub in VS Code](https://chrome.google.com/webstore/detail/open-github-in-vs-code/pnhnmmcigmleaooedjnodnioapklfngc)
+
+### Online live editor to coding and share
+
+- [CodeSandbox](https://codesandbox.io/): An online code editor for web development. Support JavaScript, TypeScript, React, HTML, CSS, and more.
+- [codi.link](https://codi.link) | [codi.link in github](https://github.com/midudev/codi.link): A simple platform for sharing code snippets in JS, HTML, CSS and is possible to install libraries with npm.
+- [replit.com](https://replit.com/): An online IDE for coding and collaboration with over 50 languages including Python, JavaScript, Java, C++, and more.
+- [Python Tutor](https://pythontutor.com/): An interactive Python code visualizer, that support JavaScript ES6, python 2.7, 3.6 and 3.11, c (c17 + GNU extensions, gcc 9.3), c++, java 8.
+- [Google Colabs](https://colab.research.google.com/): A cloud-based Jupyter Notebook for Python.
+- [Python Online Compiler - Programiz](https://www.programiz.com/python-programming/online-compiler/?ref=735b4d58): An online Python code compiler by Programiz.
+- [Code Pen](https://codepen.io/pen/): HTML, CSS and JavaScript online editor.
+- [Amazon Cloud IDE - AWS Cloud9](https://aws.amazon.com/cloud9/): Cloud9 IDE is an Online IDE (integrated development environment), published as open source from version 2.0, until version 3.0. It supports multiple programming languages, including C, C++, PHP, Ruby, Perl, Python, JavaScript with Node.js, and Go.
+- [WebStorm](https://www.jetbrains.com/webstorm/): WebStorm is a powerful IDE for JavaScript development which helps you write high-quality code quickly, regardless of how complex your projects might be. With out-of-the-box support for all popular technologies.
+
+## Free online courses
+
+- [Full Stack open with certification](https://fullstackopen.com/en/) | [Videos in spanish](https://patchamama.github.io/fast-simple-course-generator/): Deep Dive Into Modern Web Development. Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js. The course is available in english, spanish, francais and portuguese.
+- [CS50's Web Programming with Python and JavaScript - Computer Science, Harvard University](https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0): This course picks up where CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.
+- [freeCodeCamp](https://www.freecodecamp.org/): Learn to code — for free. Build projects. Earn certifications.
+- [Aprende JavaScript](https://www.aprendejavascript.dev/): Curso para aprender paso a paso JavaScript.
+  100% gratis y práctico. Desde cero.
+- [El Tutorial de JavaScript Moderno](https://es.javascript.info/): Aquí aprenderemos JavaScript, empezando desde cero y llegaremos hasta conceptos avanzados como POO.
+- [Learn Python with certification](https://programiz.pro/learn/master-python?utm_source=compiler-nav&utm_campaign=programiz&utm_medium=referral): Learn to code in Python—a beginner-friendly programming language used in data analysis, web development, task automation, and many other fields.
+- [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
+
+## Webs to test _logic of programming_
 
 - [adventjs․dev](https://adventjs․dev)
 - [leetcode․com](https://leetcode․com)
@@ -188,6 +238,22 @@ _\* for backend development_
 - [coderbyte․com](https://coderbyte․com)
 - [codesignal․com](https://codesignal․com)
 - [hackerrank․com](https://hackerrank․com)
+- [Project Euler](https://projecteuler.net/)
+
+## Databases servers and installations
+
+- Tools to software development - JSON Server: create a file named db.json in the root directory to be used by the JSON Server.
+
+```
+npm install -g json-server --save-dev
+# Execute the server
+npx json-server --port 3001 --watch db.json
+# or `json-server --port 3001 --watch db.json` to execute the server
+```
+
+## Install react from scratch with vite
+
+_See details (here)[docs/react-vite-install/README.md]_
 
 ## To do (sections)
 
@@ -195,10 +261,11 @@ _\* for backend development_
 - [x] GitHub commands frequently used
 - [x] VSCode plugins for developers
 - [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
-- [ ] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
+- [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, codi.link)
+- [x] Free online courses
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
-- [ ] Installation of react with vite, create-react-app, pnpm and main libraries with some tips
-- [ ] Installation of nodeJS with main libraries, esLint
+- [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
+- [ ] Basic installation of nodeJS with main libraries, esLint
 - [ ] Main free servers to deploy app in cloud
-- [ ] Database servers and installations
+- [-] Database servers and installations

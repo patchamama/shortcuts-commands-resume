@@ -48,6 +48,7 @@
 ```
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
+git config --global color.ui true
 ```
 
 ### Commands
@@ -157,6 +158,16 @@ git config --global user.email "your@email.com"
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
 - [Wallpapers Developer](https://drive.google.com/drive/folders/1ItU8rbSGJjnh2USOBGwaCo9nYKifPJ6m?usp=sharing)
+
+## Webs to test logic of programming
+
+⒈ [adventjs․dev](https://adventjs․dev)
+⒉ [leetcode․com](https://leetcode․com)
+⒊ [codewars․com](https://codewars․com)
+⒋ [exercism․org](https://exercism․org)
+⒌ [coderbyte․com](https://coderbyte․com)
+⒍ [codesignal․com](https://codesignal․com)
+⒎ [hackerrank․com](https://hackerrank․com)
 
 ## To do (sections)
 

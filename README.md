@@ -16,7 +16,9 @@
 - `grep`: Search for text patterns within files. Ex.: `history . | grep <command-to-search>`
 
 <details>
+
 <summary>Others</summary>
+
 - `grep`: Search for text patterns within files.
 - `echo`: Display a message or variable content in the terminal.
 - `ps`: Display a list of currently running processes.
@@ -40,6 +42,7 @@
 - `shutdown`: Shut down or restart the system.
 - `reboot`: Reboot the system.
 - `history`: View and manage command history.
+
 </details>
 
 ## GitHub commands frequently used
@@ -92,7 +95,9 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 ![Git Cheat Sheet](https://qph.cf2.quoracdn.net/main-qimg-be0c4389a44fea9757d650d578252164-pjlq)
 
 <details>
+
 <summary>Others</summary>
+
 - `git branch`: List all local branches and highlight the current branch.
 - `git checkout <branch>`: Switch to a different branch.
 - `git merge <branch>`: Merge changes from one branch into the current branch.
@@ -148,6 +153,7 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 - `git log --all --graph --decorate --oneline`: A compact and visual commit history.
 - `git grep <pattern>`: Search for a pattern in the contents of files.
 - `git log --format="%h %an %s" --since="2 weeks ago"`: Customized log format and time range.
+
 </details>
 
 ## Software for developers
@@ -251,9 +257,9 @@ npx json-server --port 3001 --watch db.json
 # or `json-server --port 3001 --watch db.json` to execute the server
 ```
 
-## Install react from scratch with vite
+## Install react from scratch
 
-_See details (here)[docs/react-vite-install/README.md]_
+- With vite see details [here](docs/react-vite-install/README.md)
 
 ## To do (sections)
 
@@ -265,7 +271,7 @@ _See details (here)[docs/react-vite-install/README.md]_
 - [x] Free online courses
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
-- [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
+- [-] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
 - [ ] Basic installation of nodeJS with main libraries, esLint
 - [ ] Main free servers to deploy app in cloud
 - [-] Database servers and installations

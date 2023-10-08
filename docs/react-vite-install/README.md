@@ -1,4 +1,4 @@
-# React installation with basic configuration
+# React installation with basic configuration using vite
 
 ### Install React
 
@@ -46,7 +46,7 @@ _The configuration file to ESLint is (.eslintrc.cjs)[.eslintrc.cjs]_
 #### To Testing (See more details)[https://fullstackopen.com/en/part5/testing_react_apps#rendering-the-component-for-tests]
 
 ```
-npm install --save-dev @testing-library/react @testing-library/jest-dom jest-environment-jsdom @babel/preset-env @babel/preset-react      @testing-library/user-event
+npm install --save-dev @testing-library/react @testing-library/jest-dom jest-environment-jsdom @babel/preset-env @babel/preset-react  @testing-library/user-event
 ```
 
 #### End to end testing with Cypress (See more details)[https://fullstackopen.com/en/part5/end_to_end_testing#cypress]

@@ -268,6 +268,22 @@ _\* for backend development_
 - [Learn Python with certification](https://programiz.pro/learn/master-python?utm_source=compiler-nav&utm_campaign=programiz&utm_medium=referral): Learn to code in Python—a beginner-friendly programming language used in data analysis, web development, task automation, and many other fields.
 - [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
 
+<details>
+
+<summary>Others youtube courses</summary>
+
+- https://www.youtube.com/@DevTalles/playlists (flutter, riverpod, react, dart, javascript, git+ github, javascript)
+
+- https://www.youtube.com/@midulive/playlists (react, nodejs, typescript, javascript)
+
+- https://www.youtube.com/@freecodecampespanol/playlists (html, css, python)
+
+- https://www.youtube.com/@jonmircha/playlists (html, css, flexbox CSS, php (17+43), javascript (fullstack 165), figma, bootstrap, nodeJS (45), React (109))
+
+- https://www.youtube.com/@pildorasinformaticas/playlists (html + css, java, php, excel, access, c++, laravel, android, python)
+
+</details>
+
 ## Webs to test _logic of programming_
 
 - [adventjs․dev](https://adventjs․dev)
@@ -280,15 +296,6 @@ _\* for backend development_
 - [Project Euler](https://projecteuler.net/)
 
 ## Databases servers and installations
-
-- Tools to software development - JSON Server: create a file named db.json in the root directory to be used by the JSON Server.
-
-```
-npm install -g json-server --save-dev
-# Execute the server
-npx json-server --port 3001 --watch db.json
-# or `json-server --port 3001 --watch db.json` to execute the server
-```
 
 ## Install react from scratch
 

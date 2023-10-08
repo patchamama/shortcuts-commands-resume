@@ -43,17 +43,34 @@
 
 ## GitHub commands frequently used
 
+### Configuration
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+git config --global color.ui true
+```
+
+### Commands
+
 - `git init`: Initialize a new Git repository in the current directory.
 - `git clone <repository>`: Create a local copy of a remote repository.
 - `git remote add <name> <URL>`: Add a new remote repository.
 - `git add <file>`: Stage changes for commit. Example: `git add .` **(to add all the files).**
 - `git commit -m "Message"`: **Commit staged changes with a descriptive message.**
+- `git commit -am "commit message"`: **Commit all your tracked files to versioned history**
 - `git status`: View the status of your working directory and staged changes.
 - `git log`: Display a history of commits in the repository.
 - `git switch  <branch>`: Switch to a different branch.
 - `git switch -c  <branch>`: Create an switch to a different branch.
 - `git push`: **Push local commits to a remote repository.**
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
+- `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
+- `git branch -a`: list the branches
+
+_[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F8341g68g1v7y.png)_
+
+![Git Cheat Sheet](https://qph.cf2.quoracdn.net/main-qimg-be0c4389a44fea9757d650d578252164-pjlq)
 
 <details>
 <summary>Others</summary>
@@ -114,12 +131,74 @@
 - `git log --format="%h %an %s" --since="2 weeks ago"`: Customized log format and time range.
 </details>
 
+## Software for developers
+
+- [Google Chrome](https://www.google.com/chrome/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Postman](https://www.postman.com/downloads/)
+- [Node](https://nodejs.org/es/)
+- [Git](https://git-scm.com/)
+- [Mongo Compass](https://www.mongodb.com/try/download/compass)\*
+- [Table Plus](https://tableplus.com/)\*
+- [Node](https://nodejs.org/es/)
+- [Docker Desktop](https://www.docker.com/get-started)
+  Download docker images: `docker pull mongo:6.0.6`
+
+_\* for backend development_
+
+## Additional terminal programs
+
+- [Homebrew](https://brew.sh/) Install: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- [Midnight Commander - mc](https://midnight-commander.org/) Install: `brew install mc` Ex.: `mc` Open editor: `mcedit`
+- [Node Version Manager - nvm](https://github.com/nvm-sh/nvm) Install: `brew install nvm` Ex.: `nvm install 16` `nvm use 16`
+- [Copilot, for your terminal - plz](https://github.com/m1guelpf/plz-cli) Install: `brew install plz-cli` Ex: `plz how to install react with vite tools`
+
+## VSCode extensions
+
+- [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
+- [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
+
+### Themes:
+
+- [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
+- [Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+### React
+
+- [ES7 React/Redux](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+- [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
+- [Wallpapers Developer](https://drive.google.com/drive/folders/1ItU8rbSGJjnh2USOBGwaCo9nYKifPJ6m?usp=sharing)
+
+### NodeJS and Django (backend)
+
+- [.env](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [Better Dockerfile Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax)
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [Dockers VSCode](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal&ssr=false#overview)
+
+## Webs to test logic of programming
+
+- [adventjs․dev](https://adventjs․dev)
+- [leetcode․com](https://leetcode․com)
+- [codewars․com](https://codewars․com)
+- [exercism․org](https://exercism․org)
+- [coderbyte․com](https://coderbyte․com)
+- [codesignal․com](https://codesignal․com)
+- [hackerrank․com](https://hackerrank․com)
+
 ## To do (sections)
 
 - [x] Common commands used in the terminal
-- [ ] GitHub commands frequently used
-- [ ] VSCode plugins for developers
-- [ ] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
-- [ ] Online IDEs to coding (gitpod, codeanywhere, codesandbox, kodi.link)
+- [x] GitHub commands frequently used
+- [x] VSCode plugins for developers
+- [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
+- [ ] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
+- [ ] Installation of react with vite, create-react-app, pnpm and main libraries with some tips
+- [ ] Installation of nodeJS with main libraries, esLint
+- [ ] Main free servers to deploy app in cloud
+- [ ] Database servers and installations

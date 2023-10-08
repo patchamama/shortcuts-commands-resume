@@ -75,7 +75,7 @@ git config --global color.ui true
 git checkout -b lastupdate
 git push origin lastupdate
 
-# Open a Pull Request in https://github.com/<project> -> Click: This branch is xxx commits ahead, xxxx commit behind origin-repo:main.
+# Open a Pull Request in https://github.com/<project>/lastupdate -> Click: This branch is xxx commits ahead, xxxx commit behind origin-repo:main.
 
 # Merge the lastupdate branch with main
 git checkout main
@@ -83,6 +83,8 @@ git merge lastupdate
 
 #Remove the lastupdate branch
 git branch -d lastupdate
+# git push origin --delete lastupdate
+
 ```
 
 _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F8341g68g1v7y.png)_
@@ -216,7 +218,7 @@ _\* for backend development_
 - [Amazon Cloud IDE - AWS Cloud9](https://aws.amazon.com/cloud9/): Cloud9 IDE is an Online IDE (integrated development environment), published as open source from version 2.0, until version 3.0. It supports multiple programming languages, including C, C++, PHP, Ruby, Perl, Python, JavaScript with Node.js, and Go.
 - [WebStorm](https://www.jetbrains.com/webstorm/): WebStorm is a powerful IDE for JavaScript development which helps you write high-quality code quickly, regardless of how complex your projects might be. With out-of-the-box support for all popular technologies.
 
-## Free online courses
+## Free online courses
 
 - [Full Stack open with certification](https://fullstackopen.com/en/) | [Videos in spanish](https://patchamama.github.io/fast-simple-course-generator/): Deep Dive Into Modern Web Development. Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js. The course is available in english, spanish, francais and portuguese.
 - [CS50's Web Programming with Python and JavaScript - Computer Science, Harvard University](https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0): This course picks up where CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.
@@ -236,6 +238,17 @@ _\* for backend development_
 - [coderbyte․com](https://coderbyte․com)
 - [codesignal․com](https://codesignal․com)
 - [hackerrank․com](https://hackerrank․com)
+- [Project Euler](https://projecteuler.net/)
+
+## Databases servers and installations
+
+- Tools to software development - JSON Server: create a file named db.json in the root directory to be used by the JSON Server.
+
+```
+npm install -g json-server
+npx json-server --port 3001 --watch db.json
+# or `json-server --port 3001 --watch db.json` to execute the server
+```
 
 ## To do (sections)
 
@@ -243,11 +256,11 @@ _\* for backend development_
 - [x] GitHub commands frequently used
 - [x] VSCode plugins for developers
 - [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
-- [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
-- [ ] Free online courses
+- [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, codi.link)
+- [x] Free online courses
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
 - [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
 - [ ] Basic installation of nodeJS with main libraries, esLint
 - [ ] Main free servers to deploy app in cloud
-- [ ] Database servers and installations
+- [-] Database servers and installations

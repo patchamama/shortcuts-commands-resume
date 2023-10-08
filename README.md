@@ -199,14 +199,14 @@ _\* for backend development_
 
 ### IDE Integrated with github to coding and sync the repository
 
-- [GitPod](https://gitpod.io/) [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/gitpod/dodmmooeoklaejobgleioelladacbeki) [Template to fork](https://github.com/Code-Institute-Org/gitpod-full-template)
-- [CodeAnyWhere](https://codeanywhere.com/signin) [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/codeanywhere/jdofbmaiblhheoneemdjccjeeihbiabl) [Template to fork](https://github.com/Code-Institute-Org/ci-full-template)
+- [GitPod](https://gitpod.io/) | [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/gitpod/dodmmooeoklaejobgleioelladacbeki) | [Template to fork](https://github.com/Code-Institute-Org/gitpod-full-template)
+- [CodeAnyWhere](https://codeanywhere.com/signin) | [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/codeanywhere/jdofbmaiblhheoneemdjccjeeihbiabl) | [Template to fork](https://github.com/Code-Institute-Org/ci-full-template)
 - [Open GitHub in VS Code](https://chrome.google.com/webstore/detail/open-github-in-vs-code/pnhnmmcigmleaooedjnodnioapklfngc)
 
 ### Online live editor to coding and share
 
 - [CodeSandbox](https://codesandbox.io/): An online code editor for web development. Support JavaScript, TypeScript, React, HTML, CSS, and more.
-- [codi.link](https://codi.link) [codi.link in github](https://github.com/midudev/codi.link): A simple platform for sharing code snippets in JS, HTML, CSS and is possible to install libraries with npm.
+- [codi.link](https://codi.link) | [codi.link in github](https://github.com/midudev/codi.link): A simple platform for sharing code snippets in JS, HTML, CSS and is possible to install libraries with npm.
 - [replit.com](https://replit.com/): An online IDE for coding and collaboration with over 50 languages including Python, JavaScript, Java, C++, and more.
 - [Python Tutor](https://pythontutor.com/): An interactive Python code visualizer, that support JavaScript ES6, python 2.7, 3.6 and 3.11, c (c17 + GNU extensions, gcc 9.3), c++, java 8.
 - [Google Colabs](https://colab.research.google.com/)

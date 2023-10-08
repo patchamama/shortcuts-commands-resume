@@ -68,13 +68,13 @@ git config --global color.ui true
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
 - `git branch -a`: list the branches
 
-- Make a Pull Request for a provisional branch <lastupdate>
+### Make a Pull Request for a provisional branch <lastupdate>
 
 ```
 git checkout -b lastupdate
 git push origin lastupdate
 
-# Open a Pull Request in https://github.com/<project> ->
+# Open a Pull Request in https://github.com/<project> -> Click: This branch is xxx commits ahead, xxxx commit behind origin-repo:main.
 
 # Merge the lastupdate branch with main
 git checkout main
@@ -156,9 +156,9 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 - [Git](https://git-scm.com/)
 - [Mongo Compass](https://www.mongodb.com/try/download/compass)\*
 - [Table Plus](https://tableplus.com/)\*
-- [Node](https://nodejs.org/es/)
+- [Node](https://nodejs.org/es/)\*
 - [Docker Desktop](https://www.docker.com/get-started)
-  Download docker images: `docker pull mongo:6.0.6`
+  Download docker images: `docker pull mongo:6.0.6`\*
 
 _\* for backend development_
 
@@ -167,7 +167,7 @@ _\* for backend development_
 - [Homebrew](https://brew.sh/) Install: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - [Midnight Commander - mc](https://midnight-commander.org/) Install: `brew install mc` Ex.: `mc` Open editor: `mcedit`
 - [Node Version Manager - nvm](https://github.com/nvm-sh/nvm) Install: `brew install nvm` Ex.: `nvm install 16` `nvm use 16`
-- [Copilot, for your terminal - plz](https://github.com/m1guelpf/plz-cli) Install: `brew install plz-cli` Ex: `plz how to install react with vite tools`
+- [Copilot, for your terminal - plz](https://github.com/m1guelpf/plz-cli) Install: `brew install plz-cli` Ex: `plz how to install react with vite tools` Conf.: `export OPENAI_API_KEY='sk-...'`
 
 ## VSCode extensions
 
@@ -195,7 +195,7 @@ _\* for backend development_
 - [Dockers VSCode](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 - [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal&ssr=false#overview)
 
-## Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, kodi.link)
+## Online IDEs to coding and tools to integrate with github
 
 ### IDE Integrated with github to coding and sync the repository
 

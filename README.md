@@ -20,28 +20,48 @@
 <summary>Others</summary>
 
 - `grep`: Search for text patterns within files.
+
 - `echo`: Display a message or variable content in the terminal.
+
 - `ps`: Display a list of currently running processes.
+
 - `kill`: Terminate processes by their process ID (PID).
+
 - `tar`: Create or extract compressed archive files.
+
 - `df`: Show disk space usage.
+
 - `du`: Display disk usage of files and directories.
+
 - `alias`: Create shortcuts or custom commands.
+
 - `sudo`: Execute a command with superuser (administrative) privileges.
+
 - `wget`: Download files from the internet.
+
 - `zip` (Linux) or `ditto` (macOS): Compress files and directories into zip archives.
+
 - `unzip` (Linux) or `ditto` (macOS): Extract files from zip archives.
+
 - `traceroute`: Trace the route packets take to reach a network host.
+
 - `find`: Search for files and directories based on various criteria.
+
 - `tree`: Display directory structure as a tree.
+
 - `who` or `w`: Show who is logged in.
+
 - `chmod`: Change file permissions.
+
 - `chown`: Change file ownership.
+
 - `quota`: Display disk usage and quotas for a user.
+
 - `sudo`: Execute a command with superuser (administrative) privileges.
+
 - `shutdown`: Shut down or restart the system.
+
 - `reboot`: Reboot the system.
-- `history`: View and manage command history.
 
 </details>
 
@@ -58,18 +78,31 @@ git config --global color.ui true
 ### Commands
 
 - `git init`: Initialize a new Git repository in the current directory.
+
 - `git clone <repository>`: Create a local copy of a remote repository.
+
 - `git remote add <name> <URL>`: Add a new remote repository.
+
 - `git add <file>`: Stage changes for commit. Example: `git add .` **(to add all the files).**
+
 - `git commit -m "Message"`: **Commit staged changes with a descriptive message.**
+
 - `git commit -am "commit message"`: **Commit all your tracked files to versioned history**
+
 - `git status`: View the status of your working directory and staged changes.
+
 - `git log`: Display a history of commits in the repository.
+
 - `git switch  <branch>` or `git checkout <branch>`: Switch to a different branch.
+
 - `git switch -c  <branch>` or `git checkout -b <branch>`: Create an switch to a different branch.
+
 - `git push`: **Push local commits to a remote repository.**
+
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
+
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
+
 - `git branch -a`: list the branches
 
 ### Make a _Pull Request_ for a provisional branch <lastupdate>

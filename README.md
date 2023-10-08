@@ -69,6 +69,7 @@ git config --global color.ui true
 - `git branch -a`: list the branches
 
 _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F8341g68g1v7y.png)_
+
 ![Git Cheat Sheet](https://qph.cf2.quoracdn.net/main-qimg-be0c4389a44fea9757d650d578252164-pjlq)
 
 <details>
@@ -137,6 +138,13 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 - [Postman](https://www.postman.com/downloads/)
 - [Node](https://nodejs.org/es/)
 - [Git](https://git-scm.com/)
+- [Mongo Compass](https://www.mongodb.com/try/download/compass)\*
+- [Table Plus](https://tableplus.com/)\*
+- [Node](https://nodejs.org/es/)
+- [Docker Desktop](https://www.docker.com/get-started)
+  Download docker images: `docker pull mongo:6.0.6`
+
+_\* for backend development_
 
 ## Additional terminal programs
 
@@ -153,7 +161,7 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 ### Themes:
 
 - [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
-- [Iconos](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 ### React
 
@@ -162,6 +170,14 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
 - [Wallpapers Developer](https://drive.google.com/drive/folders/1ItU8rbSGJjnh2USOBGwaCo9nYKifPJ6m?usp=sharing)
+
+### NodeJS and Django (backend)
+
+- [.env](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [Better Dockerfile Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax)
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [Dockers VSCode](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal&ssr=false#overview)
 
 ## Webs to test logic of programming
 

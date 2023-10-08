@@ -304,7 +304,7 @@ npx json-server --port 3001 --watch db.json
 - [x] Free online courses
 - [ ] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
-- [-] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
+- [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
 - [ ] Basic installation of nodeJS with main libraries, esLint
 - [ ] Main free servers to deploy app in cloud
-- [-] Database servers and installations
+- [ ] Database servers and installations

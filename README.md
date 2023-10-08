@@ -58,6 +58,7 @@ git config --global color.ui true
 - `git remote add <name> <URL>`: Add a new remote repository.
 - `git add <file>`: Stage changes for commit. Example: `git add .` **(to add all the files).**
 - `git commit -m "Message"`: **Commit staged changes with a descriptive message.**
+- `git commit -am "commit message"`: **Commit all your tracked files to versioned history**
 - `git status`: View the status of your working directory and staged changes.
 - `git log`: Display a history of commits in the repository.
 - `git switch  <branch>`: Switch to a different branch.
@@ -66,6 +67,9 @@ git config --global color.ui true
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
 - `git branch -a`: list the branches
+
+_[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F8341g68g1v7y.png)_
+![Git Cheat Sheet](https://qph.cf2.quoracdn.net/main-qimg-be0c4389a44fea9757d650d578252164-pjlq)
 
 <details>
 <summary>Others</summary>
@@ -161,13 +165,13 @@ git config --global color.ui true
 
 ## Webs to test logic of programming
 
-⒈ [adventjs․dev](https://adventjs․dev)
-⒉ [leetcode․com](https://leetcode․com)
-⒊ [codewars․com](https://codewars․com)
-⒋ [exercism․org](https://exercism․org)
-⒌ [coderbyte․com](https://coderbyte․com)
-⒍ [codesignal․com](https://codesignal․com)
-⒎ [hackerrank․com](https://hackerrank․com)
+- [adventjs․dev](https://adventjs․dev)
+- [leetcode․com](https://leetcode․com)
+- [codewars․com](https://codewars․com)
+- [exercism․org](https://exercism․org)
+- [coderbyte․com](https://coderbyte․com)
+- [codesignal․com](https://codesignal․com)
+- [hackerrank․com](https://hackerrank․com)
 
 ## To do (sections)
 

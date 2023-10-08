@@ -23,19 +23,19 @@ _If there is errors with modules, maybe reinstall all the modules for scratch: `
 
 ### Install extra libraries
 
-#### To fetch data can be used axios (See more details)[https://fullstackopen.com/en/part2/getting_data_from_server#axios-and-promises]
+#### To fetch data can be used axios [See more details](https://fullstackopen.com/en/part2/getting_data_from_server#axios-and-promises)
 
 ```
 npm install axios
 ```
 
-#### To validate type of data in JS (See more details)[https://fullstackopen.com/en/part5/props_children_and_proptypes#prop-types]
+#### To validate type of data in JS [See more details](https://fullstackopen.com/en/part5/props_children_and_proptypes#prop-types)
 
 ```
 npm install prop-types
 ```
 
-#### To ESlint (See more details)[https://fullstackopen.com/en/part5/props_children_and_proptypes#e-slint]
+#### To ESlint [See more details](https://fullstackopen.com/en/part5/props_children_and_proptypes#e-slint)
 
 ```
 npm install --save-dev eslint-plugin-jest
@@ -43,13 +43,13 @@ npm install --save-dev eslint-plugin-jest
 
 _The configuration file to ESLint is (.eslintrc.cjs)[.eslintrc.cjs]_
 
-#### To Testing (See more details)[https://fullstackopen.com/en/part5/testing_react_apps#rendering-the-component-for-tests]
+#### To Testing [See more details](https://fullstackopen.com/en/part5/testing_react_apps#rendering-the-component-for-tests)
 
 ```
 npm install --save-dev @testing-library/react @testing-library/jest-dom jest-environment-jsdom @babel/preset-env @babel/preset-react  @testing-library/user-event
 ```
 
-#### End to end testing with Cypress (See more details)[https://fullstackopen.com/en/part5/end_to_end_testing#cypress]
+#### End to end testing with Cypress [See more details](https://fullstackopen.com/en/part5/end_to_end_testing#cypress)
 
 ```
 npm install --save-dev cypress

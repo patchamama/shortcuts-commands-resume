@@ -296,10 +296,11 @@ _\* for backend development_
 - [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
 - [Scrimba.com](Scrimba.com)
 
-## English certifications
+## English certifications and studies
 
 - https://www.efset.org (free)
 - https://englishtest.duolingo.com/applicants
+- https://www.cambly.com/english?lang=es
 
 <details>
 
@@ -316,7 +317,7 @@ _\* for backend development_
 
 - https://www.youtube.com/@pildorasinformaticas/playlists (html + css, java, php, excel, access, c++, laravel, android, python)
 
-- https://www.youtube.com/playlist?list=PLSnadb41DsdKxcWm4wFElbfM6aUhwHjzL (git, html, css, react)
+- https://www.youtube.com/@HolaMundoDev/playlists (git, html, css, react)
 
 - https://www.youtube.com/@Develoteca/playlists (html, php, laravel, python, java)
 
@@ -401,6 +402,7 @@ _\* for backend development_
 ### Icons
 
 - https://tabler-icons.io
+- https://fontawesome.com/v5/search?m=free
 
 ### HTTP Status Code (Errors, and more...)
 

@@ -299,6 +299,7 @@ _\* for backend development_
 ## English certifications
 
 - https://www.efset.org (free)
+- https://englishtest.duolingo.com/applicants
 
 <details>
 

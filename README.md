@@ -274,10 +274,11 @@ _\* for backend development_
 - [El Tutorial de JavaScript Moderno](https://es.javascript.info/): Aquí aprenderemos JavaScript, empezando desde cero y llegaremos hasta conceptos avanzados como POO.
 - [Learn Python with certification](https://programiz.pro/learn/master-python?utm_source=compiler-nav&utm_campaign=programiz&utm_medium=referral): Learn to code in Python—a beginner-friendly programming language used in data analysis, web development, task automation, and many other fields.
 - [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
+- [Scrimba.com](Scrimba.com)
 
-## English certifications
+  ## English certifications
 
-- https://www.efset.org
+- https://www.efset.org (free)
 
 <details>
 
@@ -325,10 +326,18 @@ _\* for backend development_
 
 <summary>Algorithms and programming logic</summary>
 
+- https://frontendmentor.io
 - https://es.khanacademy.org/computing/computer-science/algorithms
 - https://app.codesignal.com
 - https://the-algorithms.com/es
 - https://www.patterns.dev/
+- https://adventjs․dev
+- https://leetcode․com
+- https://codewars․com
+- https://exercism․org
+- https://coderbyte․com
+- https://codesignal․com
+- https://hackerrank․com
 
 </details>
 
@@ -363,6 +372,21 @@ _\* for backend development_
 
 - [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins
 - [Tailwind Elements](https://tailwind-elements.com/): Bootstrap components recreated with Tailwind CSS, but with better design and more functionalities
+- [CSS Animations](https://animista.net)
+- https://cssgrid-generator.netlify.app
+
+### Icons
+
+- https://tabler-icons.io
+
+### HTTP Status Code (Errors, and more...)
+
+- https://http.cat
+
+### Create JSON with data to tests and convertions
+
+- https://jsondataai.com
+- https://app.quicktype.io
 
 ### Free web templates to start a project
 

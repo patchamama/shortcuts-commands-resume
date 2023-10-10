@@ -3,14 +3,14 @@
 ### Install React
 
 ```
-npm create vite@latest . --template react
+npx create-react-app .
 npm install
 ```
 
 #### The application is started as follows
 
 ```
-npm run dev
+npm start
 ```
 
 Runs the app in the development mode.\
@@ -68,8 +68,10 @@ _Execute the test with: `npm run cypress:open`_
 
 In the project directory, you can run:
 
-- dev: `npm run dev`
-- build: `npm run build`
+- start: `react-scripts start`
+- build: `react-scripts build`
+- test: `react-scripts test`
+- eject: `react-scripts eject`
 - lint: `npm run lint`
 - preview: `npm run preview`
 - json-server: `npm run server`
@@ -86,7 +88,7 @@ npm run build
 
 ```
 npm install -g serve
-serve -s dist
+serve -s build
 ```
 
 # Credits

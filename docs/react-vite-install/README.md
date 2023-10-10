@@ -23,6 +23,12 @@ _If there is errors with modules, maybe reinstall all the modules for scratch: `
 
 ### Install extra libraries
 
+#### Install json-server
+
+```
+npm install json-server --save-dev
+```
+
 #### To fetch data can be used axios [See more details](https://fullstackopen.com/en/part2/getting_data_from_server#axios-and-promises)
 
 ```
@@ -41,7 +47,7 @@ npm install prop-types
 npm install --save-dev eslint-plugin-jest
 ```
 
-_The configuration file to ESLint is (.eslintrc.cjs)[.eslintrc.cjs]_
+_The configuration file to ESLint is [.eslintrc.cjs](.eslintrc.cjs)_
 
 #### To Testing [See more details](https://fullstackopen.com/en/part5/testing_react_apps#rendering-the-component-for-tests)
 
@@ -75,3 +81,14 @@ In the project directory, you can run:
 ```
 npm run build
 ```
+
+### Install and run deployment server (to serve it with a static server)
+
+```
+npm install -g serve
+serve -s dist
+```
+
+# Credits
+
+- Relative path in index.html after build: https://stackoverflow.com/questions/46235798/relative-path-in-index-html-after-build

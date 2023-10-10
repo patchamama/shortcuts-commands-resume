@@ -296,7 +296,7 @@ _\* for backend development_
 - [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
 - [Scrimba.com](Scrimba.com)
 
-  ## English certifications
+## English certifications
 
 - https://www.efset.org (free)
 
@@ -324,21 +324,21 @@ _\* for backend development_
 
 <summary>Games to learn to program</summary>
 
-- Git → ohmygit․org
+- Git → https://ohmygit․org
 
-- Python → codedex․io
+- Python → https://codedex․io
 
-- CSS → flukeout․github․io
+- CSS → https://flukeout․github․io
 
-- JavaScript → warriorjs․com
+- JavaScript → https://warriorjs․com
 
-- VIM → vim-adventures․com
+- VIM → https://vim-adventures․com
 
-- SQL → mystery.knightlab․com
+- SQL → https://mystery.knightlab․com
 
-- TypeScript → codingame․com
+- TypeScript → https://codingame․com
 
-- Ruby → github․com/ryanb/ruby-warrior
+- Ruby → https://github․com/ryanb/ruby-warrior
 
 </details>
 
@@ -378,13 +378,14 @@ _\* for backend development_
 
 ## Dockers and containers
 
-- [OrbStack](https://orbstack.dev):OrbStack is the fast, light, and easy way to run Docker containers and Linux. Develop at lightspeed with our Docker Desktop alternative.
+- [OrbStack](https://orbstack.dev): _OrbStack_ is the fast, light, and easy way to run Docker containers and Linux. Develop at lightspeed with our Docker Desktop alternative.
 
 ## Databases servers and installations
 
 ## Install react from scratch
 
 - With vite see details [here](docs/react-vite-install/README.md)
+- With create-react tools [here](docs/react-create-install/README.md)
 
 ## Programming resources
 
@@ -410,7 +411,7 @@ _\* for backend development_
 
 ### Free web templates to start a project
 
-- windbasics.com
+- https://windbasics.com
 
 ## To do (sections)
 

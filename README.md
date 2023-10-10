@@ -285,6 +285,30 @@ _\* for backend development_
 
 - https://www.youtube.com/playlist?list=PLSnadb41DsdKxcWm4wFElbfM6aUhwHjzL (git, html, css, react)
 
+- https://www.youtube.com/@Develoteca/playlists (html, php, laravel, python, java)
+
+</details>
+
+<details>
+
+<summary>Games to learn to program</summary>
+
+- Git → ohmygit․org
+
+- Python → codedex․io
+
+- CSS → flukeout․github․io
+
+- JavaScript → warriorjs․com
+
+- VIM → vim-adventures․com
+
+- SQL → mystery.knightlab․com
+
+- TypeScript → codingame․com
+
+- Ruby → github․com/ryanb/ruby-warrior
+
 </details>
 
 ## Webs to test _logic of programming_

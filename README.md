@@ -215,6 +215,7 @@ _\* for backend development_
 
 - [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
 - [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
+- [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
 
 ### Themes:
 
@@ -276,11 +277,13 @@ _\* for backend development_
 
 - https://www.youtube.com/@midulive/playlists (react, nodejs, typescript, javascript)
 
-- https://www.youtube.com/@freecodecampespanol/playlists (html, css, python)
+- https://www.youtube.com/@freecodecampespanol/playlists | https://www.youtube.com/@freecodecamp/playlists (html, css, python, ... all in one)
 
 - https://www.youtube.com/@jonmircha/playlists (html, css, flexbox CSS, php (17+43), javascript (fullstack 165), figma, bootstrap, nodeJS (45), React (109))
 
 - https://www.youtube.com/@pildorasinformaticas/playlists (html + css, java, php, excel, access, c++, laravel, android, python)
+
+- https://www.youtube.com/playlist?list=PLSnadb41DsdKxcWm4wFElbfM6aUhwHjzL (git, html, css, react)
 
 </details>
 
@@ -295,11 +298,22 @@ _\* for backend development_
 - [hackerrank․com](https://hackerrank․com)
 - [Project Euler](https://projecteuler.net/)
 
+## Deploy servers gratis (+github integration)
+
+- [Fl0](https://www.fl0.com/): One app gratis, js, python, php, go and Rust. Dockerfile, github integration
+
 ## Databases servers and installations
 
 ## Install react from scratch
 
 - With vite see details [here](docs/react-vite-install/README.md)
+
+## Programming resources
+
+### CSS Libraries
+
+- [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins
+- [Tailwind Elements](https://tailwind-elements.com/): Bootstrap components recreated with Tailwind CSS, but with better design and more functionalities
 
 ## To do (sections)
 
@@ -313,5 +327,5 @@ _\* for backend development_
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
 - [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
 - [ ] Basic installation of nodeJS with main libraries, esLint
-- [ ] Main free servers to deploy app in cloud
+- [x] Main free servers to deploy app in cloud
 - [ ] Database servers and installations

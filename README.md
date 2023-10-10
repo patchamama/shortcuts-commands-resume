@@ -305,6 +305,7 @@ _\* for backend development_
 
 <summary>Others youtube courses</summary>
 
+- [Fazt Code](https://www.youtube.com/@FaztCode/playlists): FaztCode es un canal de programacion, tutoriales y proyectos web... All and more.
 - https://www.youtube.com/@DevTalles/playlists (flutter, riverpod, react, dart, javascript, git+ github, javascript)
 
 - https://www.youtube.com/@midulive/playlists (react, nodejs, typescript, javascript)

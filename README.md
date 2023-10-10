@@ -67,6 +67,26 @@
 
 ## GitHub commands frequently used
 
+### Install git
+
+- Update the system
+
+```
+sudo softwareupdate -i -a
+```
+
+- Install Homebrew
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+- Install Git
+
+```
+brew install git
+```
+
 ### Configuration
 
 ```

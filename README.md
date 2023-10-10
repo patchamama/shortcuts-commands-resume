@@ -275,6 +275,10 @@ _\* for backend development_
 - [Learn Python with certification](https://programiz.pro/learn/master-python?utm_source=compiler-nav&utm_campaign=programiz&utm_medium=referral): Learn to code in Python—a beginner-friendly programming language used in data analysis, web development, task automation, and many other fields.
 - [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
 
+## English certifications
+
+- https://www.efset.org
+
 <details>
 
 <summary>Others youtube courses</summary>
@@ -342,6 +346,10 @@ _\* for backend development_
 ## Deploy servers gratis (+github integration)
 
 - [Fl0](https://www.fl0.com/): One app gratis, js, python, php, go and Rust. Dockerfile, github integration
+
+## Dockers and containers
+
+- [OrbStack](https://orbstack.dev):OrbStack is the fast, light, and easy way to run Docker containers and Linux. Develop at lightspeed with our Docker Desktop alternative.
 
 ## Databases servers and installations
 

@@ -123,6 +123,8 @@ git branch -d lastupdate
 
 ```
 
+[Git Command Explorer](https://gitexplorer.com/)
+
 _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F8341g68g1v7y.png)_
 
 ![Git Cheat Sheet](https://qph.cf2.quoracdn.net/main-qimg-be0c4389a44fea9757d650d578252164-pjlq)
@@ -311,6 +313,15 @@ _\* for backend development_
 
 </details>
 
+<details>
+
+<summary>Algorithms and programming logic</summary>
+
+- https://es.khanacademy.org/computing/computer-science/algorithms
+- https://app.codesignal.com
+
+</details>
+
 ## Webs to test _logic of programming_
 
 - [adventjs․dev](https://adventjs․dev)
@@ -338,6 +349,10 @@ _\* for backend development_
 
 - [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins
 - [Tailwind Elements](https://tailwind-elements.com/): Bootstrap components recreated with Tailwind CSS, but with better design and more functionalities
+
+### Free web templates to start a project
+
+- windbasics.com
 
 ## To do (sections)
 

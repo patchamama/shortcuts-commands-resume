@@ -136,7 +136,26 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 
 <details>
 
-<summary>Others</summary>
+<summary>Useful resources and links</summary>
+
+- [Gitpod](https://github.com/Code-Institute-Org/gitpod-full-template) - Code Institute full template Full workspace template for GitPod. Provides extensions and tools for CI students.
+- [GitHub 'Projects'](https://youtu.be/U_dMihBgUNY) Projects are an issue management feature on GitHub which will help you organize Issues, Pull Requests, and notes into a Kanban-style board for better - - [visualization and prioritization of work.
+- [The Git Story](https://eventyret.github.io/the-git-story/) The story of Git. Get to know git commands!
+- [Git Team workflow](https://jameschambers.co/git-team-workflow-cheatsheet/) Using Git in a team cheatsheet.
+- [Forking](https://www.youtube.com/watch?v=HbSjyU2vf6Y) Git & GitHub Tutorial for Beginners - Forking & Contributing: how to fork a repository to your own GitHub account.
+- [Branches](https://www.youtube.com/watch?v=QV0kVNvkMxc) Git & GitHub Tutorial for Beginners - Branches: introduction to branching and creating new branches to test out new features on.
+- [Syncing](https://www.youtube.com/watch?v=-zvHQXnBO6c) Syncing Your GitHub Fork: what that means and how to do that video-tutorial.
+- [Dealing with merge refusal error](https://github.community/t/how-to-deal-with-refusing-to-merge-unrelated-histories-error/1372/3#M5000) The solution to 'refusing to merge unrelated histories' error.
+- [Merge](https://www.youtube.com/watch?v=sdNyMmMSU34) unrelated histories Check out this video if git won't let you push due to the remote containing work that your local repository doesn't have, despite the fact that the remote repository is a new Git Hub repository and should have no history of its own.
+- [Collaborate Issues/Pull Requests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests) GitHub docs: Collaborating with issues and pull requests. Use the GitHub flow to track and discuss changes in issues, then propose and review changes in pull requests.
+- [GitHub Starter Course](https://github.com/education/github-starter-course) The goal of this course is to give a brief introduction to GitHub. It will also provide you with materials for further learning and a few ideas to get you started on our platform.
+- [Codeanywhere](https://github.com/Code-Institute-Org/ci-full-template) - Code Institute full template Full workspace template for Codeanywhere. Provides extensions and tools for CI students.
+
+ </details>
+
+<details>
+
+<summary>Others github commands</summary>
 
 - `git stash`: Temporarily save changes that are not ready to be committed.
 - `git tag <tagname>`: Create a lightweight tag for a specific commit.
@@ -408,3 +427,7 @@ _\* for backend development_
 - [ ] Basic installation of nodeJS with main libraries, esLint
 - [x] Main free servers to deploy app in cloud
 - [ ] Database servers and installations
+
+## Credits
+
+- Useful resources and links (to a hackathon): https://hackathon.codeinstitute.net/resources/

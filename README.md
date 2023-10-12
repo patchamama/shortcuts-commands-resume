@@ -371,6 +371,7 @@ _\* for backend development_
 - https://coderbyte․com
 - https://codesignal․com
 - https://hackerrank․com
+- http://algorithm-visualizer.org
 
 </details>
 

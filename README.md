@@ -20,47 +20,26 @@
 <summary>Others</summary>
 
 - `grep`: Search for text patterns within files.
-
 - `echo`: Display a message or variable content in the terminal.
-
 - `ps`: Display a list of currently running processes.
-
 - `kill`: Terminate processes by their process ID (PID).
-
 - `tar`: Create or extract compressed archive files.
-
 - `df`: Show disk space usage.
-
 - `du`: Display disk usage of files and directories.
-
 - `alias`: Create shortcuts or custom commands.
-
 - `sudo`: Execute a command with superuser (administrative) privileges.
-
 - `wget`: Download files from the internet.
-
 - `zip` (Linux) or `ditto` (macOS): Compress files and directories into zip archives.
-
 - `unzip` (Linux) or `ditto` (macOS): Extract files from zip archives.
-
 - `traceroute`: Trace the route packets take to reach a network host.
-
 - `find`: Search for files and directories based on various criteria.
-
 - `tree`: Display directory structure as a tree.
-
 - `who` or `w`: Show who is logged in.
-
 - `chmod`: Change file permissions.
-
 - `chown`: Change file ownership.
-
 - `quota`: Display disk usage and quotas for a user.
-
 - `sudo`: Execute a command with superuser (administrative) privileges.
-
 - `shutdown`: Shut down or restart the system.
-
 - `reboot`: Reboot the system.
 
 </details>
@@ -98,32 +77,28 @@ git config --global color.ui true
 ### Commands
 
 - `git init`: Initialize a new Git repository in the current directory.
-
 - `git clone <repository>`: Create a local copy of a remote repository.
-
 - `git remote add <name> <URL>`: Add a new remote repository.
-
 - `git add <file>`: Stage changes for commit. Example: `git add .` **(to add all the files).**
-
 - `git commit -m "Message"`: **Commit staged changes with a descriptive message.**
-
 - `git commit -am "commit message"`: **Commit all your tracked files to versioned history**
-
 - `git status`: View the status of your working directory and staged changes.
-
 - `git log`: Display a history of commits in the repository.
-
 - `git switch  <branch>` or `git checkout <branch>`: Switch to a different branch.
-
 - `git switch -c  <branch>` or `git checkout -b <branch>`: Create an switch to a different branch.
-
 - `git push`: **Push local commits to a remote repository.**
-
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
-
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
-
 - `git branch -a`: list the branches
+- `git branch`: List all local branches and highlight the current branch.
+- `git checkout <branch>`: Switch to a different branch.
+- `git merge <branch>`: Merge changes from one branch into the current branch.
+- `git pull`: Fetch and merge changes from a remote repository. **`git pull origin main`**
+- `git push`: Push local commits to a remote repository.
+- `git remote -v`: View information about remote repositories.
+- `git fetch <remote>`: Download changes from a remote repository.
+- `git reset <file>`: Unstage changes for a specific file.
+- `git reset --hard <commit>`: Reset the current branch to a specific commit.
 
 ### Make a _Pull Request_ for a provisional branch <lastupdate>
 
@@ -161,17 +136,27 @@ _[Git Cheat Sheet](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F83
 
 <details>
 
-<summary>Others</summary>
+<summary>Useful resources and links</summary>
 
-- `git branch`: List all local branches and highlight the current branch.
-- `git checkout <branch>`: Switch to a different branch.
-- `git merge <branch>`: Merge changes from one branch into the current branch.
-- `git pull`: Fetch and merge changes from a remote repository.
-- `git push`: Push local commits to a remote repository.
-- `git remote -v`: View information about remote repositories.
-- `git fetch <remote>`: Download changes from a remote repository.
-- `git reset <file>`: Unstage changes for a specific file.
-- `git reset --hard <commit>`: Reset the current branch to a specific commit.
+- [Gitpod](https://github.com/Code-Institute-Org/gitpod-full-template) - Code Institute full template Full workspace template for GitPod. Provides extensions and tools for CI students.
+- [GitHub 'Projects'](https://youtu.be/U_dMihBgUNY) Projects are an issue management feature on GitHub which will help you organize Issues, Pull Requests, and notes into a Kanban-style board for better - - [visualization and prioritization of work.
+- [The Git Story](https://eventyret.github.io/the-git-story/) The story of Git. Get to know git commands!
+- [Git Team workflow](https://jameschambers.co/git-team-workflow-cheatsheet/) Using Git in a team cheatsheet.
+- [Forking](https://www.youtube.com/watch?v=HbSjyU2vf6Y) Git & GitHub Tutorial for Beginners - Forking & Contributing: how to fork a repository to your own GitHub account.
+- [Branches](https://www.youtube.com/watch?v=QV0kVNvkMxc) Git & GitHub Tutorial for Beginners - Branches: introduction to branching and creating new branches to test out new features on.
+- [Syncing](https://www.youtube.com/watch?v=-zvHQXnBO6c) Syncing Your GitHub Fork: what that means and how to do that video-tutorial.
+- [Dealing with merge refusal error](https://github.community/t/how-to-deal-with-refusing-to-merge-unrelated-histories-error/1372/3#M5000) The solution to 'refusing to merge unrelated histories' error.
+- [Merge](https://www.youtube.com/watch?v=sdNyMmMSU34) unrelated histories Check out this video if git won't let you push due to the remote containing work that your local repository doesn't have, despite the fact that the remote repository is a new Git Hub repository and should have no history of its own.
+- [Collaborate Issues/Pull Requests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests) GitHub docs: Collaborating with issues and pull requests. Use the GitHub flow to track and discuss changes in issues, then propose and review changes in pull requests.
+- [GitHub Starter Course](https://github.com/education/github-starter-course) The goal of this course is to give a brief introduction to GitHub. It will also provide you with materials for further learning and a few ideas to get you started on our platform.
+- [Codeanywhere](https://github.com/Code-Institute-Org/ci-full-template) - Code Institute full template Full workspace template for Codeanywhere. Provides extensions and tools for CI students.
+
+ </details>
+
+<details>
+
+<summary>Others github commands</summary>
+
 - `git stash`: Temporarily save changes that are not ready to be committed.
 - `git tag <tagname>`: Create a lightweight tag for a specific commit.
 - `git diff`: Show differences between the working directory and the last commit.
@@ -371,6 +356,7 @@ _\* for backend development_
 - https://coderbyte․com
 - https://codesignal․com
 - https://hackerrank․com
+- http://algorithm-visualizer.org
 
 </details>
 
@@ -384,6 +370,10 @@ _\* for backend development_
 - [codesignal․com](https://codesignal․com)
 - [hackerrank․com](https://hackerrank․com)
 - [Project Euler](https://projecteuler.net/)
+
+## Tools to optimize, compile or minifier the code pre-deploy
+
+- [Minify](https://www.minifier.org/) - JavaScript and CSS minifier
 
 ## Deploy servers gratis (+github integration)
 
@@ -418,7 +408,7 @@ _\* for backend development_
 
 - https://http.cat
 
-### Create JSON with data to tests and convertions
+### Create JSON with data to tests and conversions
 
 - https://jsondataai.com
 - https://app.quicktype.io
@@ -426,6 +416,11 @@ _\* for backend development_
 ### Free web templates to start a project
 
 - https://windbasics.com
+
+### Resources to tech interviews
+
+- https://www.techinterviewhandbook.org/
+- https://github.com/midudev/preguntas-entrevista-react
 
 ## To do (sections)
 
@@ -441,3 +436,7 @@ _\* for backend development_
 - [ ] Basic installation of nodeJS with main libraries, esLint
 - [x] Main free servers to deploy app in cloud
 - [ ] Database servers and installations
+
+## Credits
+
+- Useful resources and links (to a hackathon): https://hackathon.codeinstitute.net/resources/

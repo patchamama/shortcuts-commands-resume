@@ -371,6 +371,10 @@ _\* for backend development_
 - [hackerrank․com](https://hackerrank․com)
 - [Project Euler](https://projecteuler.net/)
 
+## Tools to optimize, compile or minifier the code pre-deploy
+
+- [Minify](https://www.minifier.org/) - JavaScript and CSS minifier
+
 ## Deploy servers gratis (+github integration)
 
 - [Fl0](https://www.fl0.com/): One app gratis, js, python, php, go and Rust. Dockerfile, github integration

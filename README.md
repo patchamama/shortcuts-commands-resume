@@ -408,7 +408,7 @@ _\* for backend development_
 
 - https://http.cat
 
-### Create JSON with data to tests and convertions
+### Create JSON with data to tests and conversions
 
 - https://jsondataai.com
 - https://app.quicktype.io
@@ -416,6 +416,11 @@ _\* for backend development_
 ### Free web templates to start a project
 
 - https://windbasics.com
+
+### Resources to tech interviews
+
+- https://www.techinterviewhandbook.org/
+- https://github.com/midudev/preguntas-entrevista-react
 
 ## To do (sections)
 

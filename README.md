@@ -406,7 +406,7 @@ _\* for backend development_
 - https://tabler-icons.io
 - https://fontawesome.com/v5/search?m=free
 
-### Design resources
+## Design resources
 
 - Moodboards: Help Unlock Your Creativity
   _Moodboards play a pivotal role in the design process. They are visual collages that encapsulate the essence and style of a project. Learn why moodboards are vital and how to create and share them effectively in this insightful article: [All about moodboards, why they are important, how to make them and how to share them](https://www.nngroup.com/articles/mood-boards/).
@@ -439,6 +439,10 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [Free icons from Flowbite](https://flowbite.com/icons/): Access a library of free icons for your design needs.
 - [Unsplash](https://unsplash.com/): A treasure trove of high-quality, free images to enhance your projects.
 
+## Free sound resources
+
+- https://freesound.org
+
 ### HTTP Status Code (Errors, and more...)
 
 - https://http.cat
@@ -456,6 +460,10 @@ Incorporating striking images and icons can elevate your design. Here are some v
 
 - https://www.techinterviewhandbook.org/
 - https://github.com/midudev/preguntas-entrevista-react
+
+### Other resources
+
+- [Podomodoro timer](https://pomodoro-tracker.com/)
 
 ## To do (sections)
 

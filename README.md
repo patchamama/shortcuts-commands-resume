@@ -394,6 +394,10 @@ _\* for backend development_
 
 ## Programming resources
 
+### Documentation of many languages
+
+- [DevDocs](https://devdocs.io/): DevDocs combines multiple API documentations in a fast, organized, and searchable interface.
+
 ### CSS Libraries
 
 - [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins

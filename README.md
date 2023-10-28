@@ -470,6 +470,10 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [Podomodoro timer](https://pomodoro-tracker.com/)
 - [Chatbot in your Site](https://www.chatsimple.ai/)
 
+### Free certifications
+
+- https://github.com/patchamama/Free-Certifications
+
 ## To do (sections)
 
 - [x] Common commands used in the terminal

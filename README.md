@@ -411,8 +411,10 @@ _\* for backend development_
 
 ### CSS Libraries
 
-- [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins
+- [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+  _[Free themes for Bootstrap](https://bootswatch.com/)_
 - [Tailwind Elements](https://tailwind-elements.com/): Bootstrap components recreated with Tailwind CSS, but with better design and more functionalities
+- ][Materializecss.com](https://materializecss.com/getting-started.html): Created and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform.
 - [CSS Animations](https://animista.net)
 - https://cssgrid-generator.netlify.app
 

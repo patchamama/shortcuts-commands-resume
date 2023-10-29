@@ -405,6 +405,7 @@ _\* for backend development_
 ## Deploy servers gratis (+github integration)
 
 - [Fl0](https://www.fl0.com/): One app gratis, js, python, php, go and Rust. Dockerfile, github integration
+- [Vercel](https://vercel.com/docs/cli/deploy)
 
 ## Dockers and containers
 
@@ -497,6 +498,11 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [Podomodoro timer](https://pomodoro-tracker.com/)
 - [Chatbot in your Site](https://www.chatsimple.ai/)
 - [Rapid API](https://rapidapi.com)
+
+### Validators (css, html, python, js)..
+
+- [Python](https://pep8ci.herokuapp.com/)
+- [EsLint and Standard JS](https://www.youtube.com/watch?v=QpDpRmlFfqI&ab_channel=midulive)
 
 ### Free certifications
 

@@ -126,6 +126,8 @@ git commit -m "Commit message" --author="GitHubUserName1 <GitHubUserName1@users.
 git push
 ```
 
+_If there is a error, check the option `git stash`_
+
 _More details [here](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)_
 
 [Git Command Explorer](https://gitexplorer.com/)

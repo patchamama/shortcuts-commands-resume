@@ -118,7 +118,7 @@ git branch -d lastupdate
 
 ```
 
-### Colaboration commit
+### Collaboration commit
 
 ```
 git add .
@@ -127,6 +127,19 @@ git push
 ```
 
 _If there is a error, check the option `git stash`_
+
+### Restore a local repo from the remote in the same status
+
+_The local changing after the last commit will removed_
+
+```
+git remote add origin <url-repo>
+git remote -v
+git branch
+git fetch origin
+git reset --hard origin/main
+git push -f origin main
+```
 
 _More details [here](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)_
 

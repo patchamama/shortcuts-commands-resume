@@ -496,6 +496,7 @@ Incorporating striking images and icons can elevate your design. Here are some v
 
 - [Podomodoro timer](https://pomodoro-tracker.com/)
 - [Chatbot in your Site](https://www.chatsimple.ai/)
+- [Rapid API](https://rapidapi.com)
 
 ### Free certifications
 

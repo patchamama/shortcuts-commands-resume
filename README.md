@@ -118,12 +118,27 @@ git branch -d lastupdate
 
 ```
 
-### Colaboration commit
+### Collaboration commit
 
 ```
 git add .
 git commit -m "Commit message" --author="GitHubUserName1 <GitHubUserName1@users.noreply.github.com>" --author="GitHubUserName2 <GitHubUserName2@users.noreply.github.com>"
 git push
+```
+
+_If there is a error, check the option `git stash`_
+
+### Restore a local repo from the remote in the same status
+
+_The local changing after the last commit will removed_
+
+```
+git remote add origin <url-repo>
+git remote -v
+git branch
+git fetch origin
+git reset --hard origin/main
+git push -f origin main
 ```
 
 _More details [here](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)_
@@ -269,7 +284,9 @@ _\* for backend development_
 
 ### Online live editor to coding and share
 
+- [Stackblitz](https://stackblitz.com/): An online development environment for frontend, Node.js and the JavaScript ecosystem.
 - [CodeSandbox](https://codesandbox.io/): An online code editor for web development. Support JavaScript, TypeScript, React, HTML, CSS, and more.
+- [CodeSignal](https://codesignal.com/): Seamless technical hiring, from screening to interview. Make the right hires faster, save engineering time, increase diversity, and reduce risk with our technical interview and assessment platform.
 - [codi.link](https://codi.link) | [codi.link in github](https://github.com/midudev/codi.link): A simple platform for sharing code snippets in JS, HTML, CSS and is possible to install libraries with npm.
 - [replit.com](https://replit.com/): An online IDE for coding and collaboration with over 50 languages including Python, JavaScript, Java, C++, and more.
 - [Python Tutor](https://pythontutor.com/): An interactive Python code visualizer, that support JavaScript ES6, python 2.7, 3.6 and 3.11, c (c17 + GNU extensions, gcc 9.3), c++, java 8.
@@ -290,6 +307,16 @@ _\* for backend development_
 - [Learn Python with certification](https://programiz.pro/learn/master-python?utm_source=compiler-nav&utm_campaign=programiz&utm_medium=referral): Learn to code in Python—a beginner-friendly programming language used in data analysis, web development, task automation, and many other fields.
 - [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
 - [Scrimba.com](Scrimba.com)
+- [The Beginner's Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react)
+
+## Markdown and Readme references
+
+- https://www.makeareadme.com/
+- https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- https://commonmark.org/help/
+- https://commonmark.org/help/tutorial/index.html
+- https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- https://github.com/Code-Institute-Solutions/readme-template
 
 ## English certifications and studies
 
@@ -378,6 +405,7 @@ _\* for backend development_
 ## Deploy servers gratis (+github integration)
 
 - [Fl0](https://www.fl0.com/): One app gratis, js, python, php, go and Rust. Dockerfile, github integration
+- [Vercel](https://vercel.com/docs/cli/deploy)
 
 ## Dockers and containers
 
@@ -392,10 +420,16 @@ _\* for backend development_
 
 ## Programming resources
 
+### Documentation of many languages
+
+- [DevDocs](https://devdocs.io/): DevDocs combines multiple API documentations in a fast, organized, and searchable interface.
+
 ### CSS Libraries
 
-- [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins
+- [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+  _[Free themes for Bootstrap](https://bootswatch.com/)_
 - [Tailwind Elements](https://tailwind-elements.com/): Bootstrap components recreated with Tailwind CSS, but with better design and more functionalities
+- ][Materializecss.com](https://materializecss.com/getting-started.html): Created and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform.
 - [CSS Animations](https://animista.net)
 - https://cssgrid-generator.netlify.app
 
@@ -403,6 +437,43 @@ _\* for backend development_
 
 - https://tabler-icons.io
 - https://fontawesome.com/v5/search?m=free
+
+## Design resources
+
+- Moodboards: Help Unlock Your Creativity
+  _Moodboards play a pivotal role in the design process. They are visual collages that encapsulate the essence and style of a project. Learn why moodboards are vital and how to create and share them effectively in this insightful article: [All about moodboards, why they are important, how to make them and how to share them](https://www.nngroup.com/articles/mood-boards/).
+  For web design enthusiasts, here's a deeper dive into the role of moodboards specifically in the web design process: [Moodboards in web design process](https://www.newmediacampaigns.com/blog/what-is-a-mood-board-and-our-web-design-process).
+  And for a broader perspective on utilizing moodboards in various design contexts, this piece offers valuable insights: [Moodboards in general](https://uxdesign.cc/using-moodboards-in-the-design-process-b61979ad7149)._
+
+### Typography: Art of Fonts
+
+Typography is the backbone of design, and selecting the right fonts can make or break a project. Explore a world of typography options with these resources:
+
+- [Google Fonts](https://fonts.google.com/): A vast library of free fonts to elevate your design.
+- [Fontshare](https://www.fontshare.com/): Discover and share open-source fonts.
+- [Colletivo](https://www.collletttivo.it/typefaces): An inspiring collection of typefaces.
+
+### Grids: Structuring Your Design
+
+Grids provide structure and harmony in web design. Dive into the world of grids with this comprehensive guide: [A little bit of everything about them](https://www.flux-academy.com/blog/how-to-use-a-grid-in-web-design).
+
+### Color Schemes: Adding Visual Appeal
+
+Color selection is critical for creating a visually appealing design. Explore color palettes and combinations with these resources:
+
+- [Adobe Color Wheel](https://color.adobe.com/create/color-wheel): Create stunning color schemes effortlessly.
+- [Coolors](https://coolors.co/palettes/trending): Find trending color palettes to spark your creativity.
+
+### Images and Icons: Enhancing Visual Impact
+
+Incorporating striking images and icons can elevate your design. Here are some valuable resources for free imagery and icons:
+
+- [Free icons from Flowbite](https://flowbite.com/icons/): Access a library of free icons for your design needs.
+- [Unsplash](https://unsplash.com/): A treasure trove of high-quality, free images to enhance your projects.
+
+## Free sound resources
+
+- https://freesound.org
 
 ### HTTP Status Code (Errors, and more...)
 
@@ -422,6 +493,21 @@ _\* for backend development_
 - https://www.techinterviewhandbook.org/
 - https://github.com/midudev/preguntas-entrevista-react
 
+### Other resources
+
+- [Podomodoro timer](https://pomodoro-tracker.com/)
+- [Chatbot in your Site](https://www.chatsimple.ai/)
+- [Rapid API](https://rapidapi.com)
+
+### Validators (css, html, python, js)..
+
+- [Python](https://pep8ci.herokuapp.com/)
+- [EsLint and Standard JS](https://www.youtube.com/watch?v=QpDpRmlFfqI&ab_channel=midulive)
+
+### Free certifications
+
+- https://github.com/patchamama/Free-Certifications
+
 ## To do (sections)
 
 - [x] Common commands used in the terminal
@@ -430,7 +516,7 @@ _\* for backend development_
 - [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
 - [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, codi.link)
 - [x] Free online courses
-- [ ] Markdown and Readme references
+- [x] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
 - [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
 - [ ] Basic installation of nodeJS with main libraries, esLint

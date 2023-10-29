@@ -295,6 +295,14 @@ _\* for backend development_
 - [Preguntas de entrevista para React](https://github.com/midudev/preguntas-entrevista-react): De cero a experto. Con respuestas detalladas en Español
 - [Scrimba.com](Scrimba.com)
 
+## Markdown and Readme references
+
+- https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- https://commonmark.org/help/
+- https://commonmark.org/help/tutorial/index.html
+- https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- https://github.com/Code-Institute-Solutions/readme-template
+
 ## English certifications and studies
 
 - https://www.efset.org (free)
@@ -484,7 +492,7 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
 - [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, codi.link)
 - [x] Free online courses
-- [ ] Markdown and Readme references
+- [x] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
 - [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
 - [ ] Basic installation of nodeJS with main libraries, esLint

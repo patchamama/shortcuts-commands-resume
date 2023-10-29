@@ -297,6 +297,7 @@ _\* for backend development_
 
 ## Markdown and Readme references
 
+- https://www.makeareadme.com/
 - https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://commonmark.org/help/
 - https://commonmark.org/help/tutorial/index.html

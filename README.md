@@ -499,10 +499,11 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [Chatbot in your Site](https://www.chatsimple.ai/)
 - [Rapid API](https://rapidapi.com)
 
-### Validators (css, html, python, js)..
+### Validators, testing (css, html, python, js)..
 
 - [Python](https://pep8ci.herokuapp.com/)
 - [EsLint and Standard JS](https://www.youtube.com/watch?v=QpDpRmlFfqI&ab_channel=midulive)
+- [Web Application Testing: How to Test a Website?](https://www.guru99.com/web-application-testing.html)
 
 ### Free certifications
 

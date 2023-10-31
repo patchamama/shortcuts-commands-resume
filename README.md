@@ -433,10 +433,11 @@ _\* for backend development_
 - [CSS Animations](https://animista.net)
 - https://cssgrid-generator.netlify.app
 
-### Icons
+### Icons, images and fonts
 
 - https://tabler-icons.io
 - https://fontawesome.com/v5/search?m=free
+- Images sizes: https://via.placeholder.com/300
 
 ## Design resources
 
@@ -498,6 +499,7 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [Podomodoro timer](https://pomodoro-tracker.com/)
 - [Chatbot in your Site](https://www.chatsimple.ai/)
 - [Rapid API](https://rapidapi.com)
+- [Giphy API](https://developers.giphy.com/)
 
 ### Validators, testing (css, html, python, js)..
 

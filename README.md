@@ -100,6 +100,12 @@ git config --global color.ui true
 - `git reset <file>`: Unstage changes for a specific file.
 - `git reset --hard <commit>`: Reset the current branch to a specific commit.
 
+### Restore the files as was in the last commit
+
+```
+git checkout -- .
+```
+
 ### Make a _Pull Request_ for a provisional branch <lastupdate>
 
 ```
@@ -499,7 +505,7 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [Podomodoro timer](https://pomodoro-tracker.com/)
 - [Chatbot in your Site](https://www.chatsimple.ai/)
 - [Rapid API](https://rapidapi.com)
-- [Giphy API](https://developers.giphy.com/)
+- [Giphy API](https://developers.giphy.com/) [Developers](https://developers.giphy.com/dashboard/)
 
 ### Validators, testing (css, html, python, js)..
 

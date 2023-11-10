@@ -100,6 +100,12 @@ git config --global color.ui true
 - `git reset <file>`: Unstage changes for a specific file.
 - `git reset --hard <commit>`: Reset the current branch to a specific commit.
 
+### Restore the files as was in the last commit
+
+```
+git checkout -- .
+```
+
 ### Make a _Pull Request_ for a provisional branch <lastupdate>
 
 ```
@@ -433,10 +439,11 @@ _\* for backend development_
 - [CSS Animations](https://animista.net)
 - https://cssgrid-generator.netlify.app
 
-### Icons
+### Icons, images and fonts
 
 - https://tabler-icons.io
 - https://fontawesome.com/v5/search?m=free
+- Images sizes: https://via.placeholder.com/300
 
 ## Design resources
 
@@ -498,11 +505,13 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [Podomodoro timer](https://pomodoro-tracker.com/)
 - [Chatbot in your Site](https://www.chatsimple.ai/)
 - [Rapid API](https://rapidapi.com)
+- [Giphy API](https://developers.giphy.com/) [Developers](https://developers.giphy.com/dashboard/)
 
-### Validators (css, html, python, js)..
+### Validators, testing (css, html, python, js)..
 
 - [Python](https://pep8ci.herokuapp.com/)
 - [EsLint and Standard JS](https://www.youtube.com/watch?v=QpDpRmlFfqI&ab_channel=midulive)
+- [Web Application Testing: How to Test a Website?](https://www.guru99.com/web-application-testing.html)
 
 ### Free certifications
 

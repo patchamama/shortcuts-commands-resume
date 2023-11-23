@@ -500,6 +500,10 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - https://www.techinterviewhandbook.org/
 - https://github.com/midudev/preguntas-entrevista-react
 
+### Herramientas para programación con Inteligencia Artificial (IA)
+
+- https://aifindy.com/categorias/programacion
+
 ### Other resources
 
 - [Podomodoro timer](https://pomodoro-tracker.com/)

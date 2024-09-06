@@ -1,12 +1,12 @@
 # Summarises commands and instructions to be taught and used.
 
-## Linux and MacOs terminal commands:
+## Linux and macOS terminal commands:
 
 - `ls`: List files and directories in the current directory.
 - `cat`: Concatenate and display the contents of a file.
 - `pwd`: Print the current working directory.
 - `history`: View a list of previously executed commands. Ex.: `history .` , `history -5`
-- `rm`: Remove files or directories. Be cautious as this command is irreversible.
+- `rm`: Remove files or directories. Please be careful as this command is irreversible.
 - `mkdir`: Create a new directory.
 - `find`: Search for files and directories in a specified location.
 - `cd`: Change the current directory.
@@ -33,7 +33,7 @@
 - `unzip` (Linux) or `ditto` (macOS): Extract files from zip archives.
 - `traceroute`: Trace the route packets take to reach a network host.
 - `find`: Search for files and directories based on various criteria.
-- `tree`: Display directory structure as a tree.
+- `tree`: Display the directory structure as a tree.
 - `who` or `w`: Show who is logged in.
 - `chmod`: Change file permissions.
 - `chown`: Change file ownership.
@@ -85,7 +85,7 @@ git config --global color.ui true
 - `git status`: View the status of your working directory and staged changes.
 - `git log`: Display a history of commits in the repository.
 - `git switch  <branch>` or `git checkout <branch>`: Switch to a different branch.
-- `git switch -c  <branch>` or `git checkout -b <branch>`: Create an switch to a different branch.
+- `git switch -c  <branch>` or `git checkout -b <branch>`: Create a switch to a different branch.
 - `git push`: **Push local commits to a remote repository.**
 - `git push origin <branch-name>`: Push local commits to a branch in the remote repository.
 - `git switch -c updates-branch && git push --set-upstream origin updates-branch`: Create and update a new branch <updates-branch>
@@ -97,7 +97,7 @@ git config --global color.ui true
 - `git push`: Push local commits to a remote repository.
 - `git remote -v`: View information about remote repositories.
 - `git fetch <remote>`: Download changes from a remote repository.
-- `git reset <file>`: Unstage changes for a specific file.
+- `git reset <file>`: Unstaged changes for a specific file.
 - `git reset --hard <commit>`: Reset the current branch to a specific commit.
 
 ### Restore the files as was in the last commit
@@ -132,7 +132,7 @@ git commit -m "Commit message" --author="GitHubUserName1 <GitHubUserName1@users.
 git push
 ```
 
-_If there is a error, check the option `git stash`_
+_If there is an error, check the option `git stash`_
 
 ### Restore a local repo from the remote in the same status
 
@@ -280,9 +280,9 @@ _\* for backend development_
 - [Dockers VSCode](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 - [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal&ssr=false#overview)
 
-## Online IDEs to coding and tools to integrate with github
+## Online IDEs to coding and tools to integrate with GitHub
 
-### IDE Integrated with github to coding and sync the repository
+### IDE Integrated with GitHub to coding and sync the repository
 
 - [GitPod](https://gitpod.io/) | [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/gitpod/dodmmooeoklaejobgleioelladacbeki) | [Template to fork](https://github.com/Code-Institute-Org/gitpod-full-template)
 - [CodeAnyWhere](https://codeanywhere.com/signin) | [GitHub Chrome Plugin](https://chrome.google.com/webstore/detail/codeanywhere/jdofbmaiblhheoneemdjccjeeihbiabl) | [Template to fork](https://github.com/Code-Institute-Org/ci-full-template)
@@ -300,11 +300,11 @@ _\* for backend development_
 - [Python Online Compiler - Programiz](https://www.programiz.com/python-programming/online-compiler/?ref=735b4d58): An online Python code compiler by Programiz.
 - [Code Pen](https://codepen.io/pen/): HTML, CSS and JavaScript online editor.
 - [Amazon Cloud IDE - AWS Cloud9](https://aws.amazon.com/cloud9/): Cloud9 IDE is an Online IDE (integrated development environment), published as open source from version 2.0, until version 3.0. It supports multiple programming languages, including C, C++, PHP, Ruby, Perl, Python, JavaScript with Node.js, and Go.
-- [WebStorm](https://www.jetbrains.com/webstorm/): WebStorm is a powerful IDE for JavaScript development which helps you write high-quality code quickly, regardless of how complex your projects might be. With out-of-the-box support for all popular technologies.
+- [WebStorm](https://www.jetbrains.com/webstorm/): WebStorm is a powerful IDE for JavaScript development that helps you write high-quality code quickly, regardless of how complex your projects might be. With out-of-the-box support for all popular technologies.
 
 ## Free online courses
 
-- [Full Stack open with certification](https://fullstackopen.com/en/) | [Videos in spanish](https://patchamama.github.io/fast-simple-course-generator/): Deep Dive Into Modern Web Development. Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js. The course is available in english, spanish, francais and portuguese.
+- [Full Stack open with certification](https://fullstackopen.com/en/) | [Videos in spanish](https://patchamama.github.io/fast-simple-course-generator/): Deep Dive Into Modern Web Development. Learn React, Redux, Node.js, MongoDB, GraphQL, and TypeScript in one go! This course will introduce you to modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js. The course is available in English, Spanish, francais and Portuguese.
 - [CS50's Web Programming with Python and JavaScript - Computer Science, Harvard University](https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0): This course picks up where CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.
 - [freeCodeCamp](https://www.freecodecamp.org/): Learn to code — for free. Build projects. Earn certifications.
 - [Aprende JavaScript](https://www.aprendejavascript.dev/): Curso para aprender paso a paso JavaScript.
@@ -335,17 +335,17 @@ _\* for backend development_
 <summary>Others youtube courses</summary>
 
 - [Fazt Code](https://www.youtube.com/@FaztCode/playlists): FaztCode es un canal de programacion, tutoriales y proyectos web... All and more.
-- https://www.youtube.com/@DevTalles/playlists (flutter, riverpod, react, dart, javascript, git+ github, javascript)
+- https://www.youtube.com/@DevTalles/playlists (flutter, riverpod, react, dart, javascript, git+ GitHub, Javascript)
 
 - https://www.youtube.com/@midulive/playlists (react, nodejs, typescript, javascript)
 
-- https://www.youtube.com/@freecodecampespanol/playlists | https://www.youtube.com/@freecodecamp/playlists (html, css, python, ... all in one)
+- https://www.youtube.com/@freecodecampespanol/playlists | https://www.youtube.com/@freecodecamp/playlists (HTML, CSS, python, ... all in one)
 
-- https://www.youtube.com/@jonmircha/playlists (html, css, flexbox CSS, php (17+43), javascript (fullstack 165), figma, bootstrap, nodeJS (45), React (109))
+- https://www.youtube.com/@jonmircha/playlists (html, CSS, flexbox CSS, PHP (17+43), javascript (full-stack 165), Figma, bootstrap, nodeJS (45), React (109))
 
-- https://www.youtube.com/@pildorasinformaticas/playlists (html + css, java, php, excel, access, c++, laravel, android, python)
+- https://www.youtube.com/@pildorasinformaticas/playlists (HTML + CSS, java, php, excel, access, c++, laravel, android, python)
 
-- https://www.youtube.com/@HolaMundoDev/playlists (git, html, css, react)
+- https://www.youtube.com/@HolaMundoDev/playlists (git, HTML, CSS, react)
 
 - https://www.youtube.com/@Develoteca/playlists (html, php, laravel, python, java)
 
@@ -415,7 +415,7 @@ _\* for backend development_
 
 ## Dockers and containers
 
-- [OrbStack](https://orbstack.dev): _OrbStack_ is the fast, light, and easy way to run Docker containers and Linux. Develop at lightspeed with our Docker Desktop alternative.
+- [OrbStack](https://orbstack.dev): _OrbStack_ is the fast, light, and easy way to run Docker containers and Linux. Develop at Lightspeed with our Docker Desktop alternative.
 
 ## Databases servers and installations
 
@@ -432,20 +432,21 @@ _\* for backend development_
 
 ### CSS Libraries
 
-- [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+- [Bootstrap](https://getbootstrap.com/): Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize a prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
   _[Free themes for Bootstrap](https://bootswatch.com/)_
 - [Tailwind Elements](https://tailwind-elements.com/): Bootstrap components recreated with Tailwind CSS, but with better design and more functionalities
-- [Materializecss.com](https://materializecss.com/getting-started.html): Created and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform.
+- [Materializecss.com](https://materializecss.com/getting-started.html): Created and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all its products on any platform.
 - [CSS Animations](https://animista.net)
 - https://cssgrid-generator.netlify.app
 
-### Icons, images and fonts
+### Icons, images, and fonts
 
 - https://tabler-icons.io
 - https://fontawesome.com/v5/search?m=free
 - Images sizes: https://via.placeholder.com/300
+- [Favicon Generator](https://realfavicongenerator.net/)
 
-## Design resources
+## Design Resources
 
 - Moodboards: Help Unlock Your Creativity
   _Moodboards play a pivotal role in the design process. They are visual collages that encapsulate the essence and style of a project. Learn why moodboards are vital and how to create and share them effectively in this insightful article: [All about moodboards, why they are important, how to make them and how to share them](https://www.nngroup.com/articles/mood-boards/).
@@ -486,7 +487,7 @@ Incorporating striking images and icons can elevate your design. Here are some v
 
 - https://http.cat
 
-### Create JSON with data to tests and conversions
+### Create JSON with data for tests and conversions
 
 - https://jsondataai.com
 - https://app.quicktype.io
@@ -495,7 +496,7 @@ Incorporating striking images and icons can elevate your design. Here are some v
 
 - https://windbasics.com
 
-### Resources to tech interviews
+### Resources for tech interviews
 
 - https://www.techinterviewhandbook.org/
 - https://github.com/midudev/preguntas-entrevista-react
@@ -511,7 +512,7 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [Rapid API](https://rapidapi.com)
 - [Giphy API](https://developers.giphy.com/) [Developers](https://developers.giphy.com/dashboard/)
 
-### Validators, testing (css, html, python, js)..
+### Validators, testing (CSS, HTML, python, js)...
 
 - [Python](https://pep8ci.herokuapp.com/)
 - [EsLint and Standard JS](https://www.youtube.com/watch?v=QpDpRmlFfqI&ab_channel=midulive)
@@ -527,13 +528,13 @@ Incorporating striking images and icons can elevate your design. Here are some v
 - [x] GitHub commands frequently used
 - [x] VSCode plugins for developers
 - [x] Additional terminal programs to be used in the terminal: mc, homebrew, plz (copilot assistant),...
-- [x] Online IDEs to coding and integrate with github (gitpod, codeanywhere, codesandbox, codi.link)
+- [x] Online IDEs to coding and integrate with GitHub (gitpod, codeanywhere, codesandbox, codi.link)
 - [x] Free online courses
 - [x] Markdown and Readme references
 - [ ] Free resources (images, icons, wireframes, colors, fonts, designs, libraries)
 - [ ] Basic installation of react with vite, create-react-app, pnpm and main libraries with some tips
 - [ ] Basic installation of nodeJS with main libraries, esLint
-- [x] Main free servers to deploy app in cloud
+- [x] Main free servers to deploy apps in cloud
 - [ ] Database servers and installations
 
 ## Credits
